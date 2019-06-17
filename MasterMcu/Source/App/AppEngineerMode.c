@@ -512,7 +512,8 @@ static T_S32 AppEngineerModeClearData(const T_CHAR* cmd, T_CHAR* params[], T_S32
 
 static T_S32 AppEngineerModeFctTestCom(const T_CHAR* cmd, T_CHAR* params[], T_S32 param_size)
 {   
-    printf("fct com test send: %ld, recv: %ld\n", *(T_U32 *)FRAM_ADDR_FCT_SEND, *(T_U32 *)FRAM_ADDR_FCT_RECV);    
+    printf("fct com test send: %ld, recv: %ld\nfct pulse test send: %ld, recv: %ld\n",
+        *(T_U32 *)FRAM_ADDR_FCT_SEND, *(T_U32 *)FRAM_ADDR_FCT_RECV,*(T_U32 *)FRAM_ADDR_FCT_SEND_PULSE, *(T_U32 *)FRAM_ADDR_FCT_RECV_PULSE);    
 
     return 0;
 }
@@ -646,7 +647,7 @@ static const TS_ENGINEER_CMD_HANDLER g_app_engineer_cmd_handlers[] =
     {"8", AppEngineerModeFCTCase8},
     {"9", AppEngineerModeFCTCase9},
     {"10", AppEngineerModeFCTCase10},
-    {"com_test", AppEngineerModeFctTestCom"fct com test result"},
+    {"com_test", AppEngineerModeFctTestCom,"fct com test result"},
 
     //below must at end
     {"", NULL}   

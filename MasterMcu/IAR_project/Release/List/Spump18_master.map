@@ -2,109 +2,110 @@
 #                                                                              #
 #      IAR Universal Linker V6.1.3.56                                          #
 #                                                                              #
-#           Link time     =  14/Jun/2019  14:10:16                             #
+#           Link time     =  17/Jun/2019  11:40:49                             #
 #           Target CPU    =  MSP430                                            #
-#           List file     =  D:\FCT_com\MasterMcu\IAR_project\Release\List\Spu #
-#                            mp18_master.map                                   #
-#           Output file 1 =  D:\FCT_com\MasterMcu\IAR_project\Release\Exe\Spum #
-#                            p18_master.d43                                    #
+#           List file     =  D:\FCT_release\MasterMcu\IAR_project\Release\List #
+#                            \Spump18_master.map                               #
+#           Output file 1 =  D:\FCT_release\MasterMcu\IAR_project\Release\Exe\ #
+#                            Spump18_master.d43                                #
 #                            Format: debug                                     #
 #                            UBROF version 10.0.6                              #
 #                            Using library modules for C-SPY (-rt)             #
-#           Output file 2 =  D:\FCT_com\MasterMcu\IAR_project\Release\Exe\Spum #
-#                            p18_master.txt                                    #
+#           Output file 2 =  D:\FCT_release\MasterMcu\IAR_project\Release\Exe\ #
+#                            Spump18_master.txt                                #
 #                            Format: msp430_txt                                #
-#           Command line  =  D:\FCT_com\MasterMcu\IAR_project\Release\Obj\AppC #
-#                            omm.r43                                           #
-#                            D:\FCT_com\MasterMcu\IAR_project\Release\Obj\AppC #
-#                            ommon.r43                                         #
-#                            D:\FCT_com\MasterMcu\IAR_project\Release\Obj\AppD #
-#                            elivery.r43                                       #
-#                            D:\FCT_com\MasterMcu\IAR_project\Release\Obj\AppE #
-#                            ngineerMode.r43                                   #
-#                            D:\FCT_com\MasterMcu\IAR_project\Release\Obj\AppF #
-#                            CT.r43                                            #
-#                            D:\FCT_com\MasterMcu\IAR_project\Release\Obj\Comm #
-#                            on.r43                                            #
-#                            D:\FCT_com\MasterMcu\IAR_project\Release\Obj\CtlA #
-#                            dc.r43                                            #
-#                            D:\FCT_com\MasterMcu\IAR_project\Release\Obj\CtlC #
-#                            omm.r43                                           #
-#                            D:\FCT_com\MasterMcu\IAR_project\Release\Obj\CtlD #
-#                            ata.r43                                           #
-#                            D:\FCT_com\MasterMcu\IAR_project\Release\Obj\CtlD #
-#                            elivery.r43                                       #
-#                            D:\FCT_com\MasterMcu\IAR_project\Release\Obj\CtlD #
-#                            isplay.r43                                        #
-#                            D:\FCT_com\MasterMcu\IAR_project\Release\Obj\CtlE #
-#                            vent.r43                                          #
-#                            D:\FCT_com\MasterMcu\IAR_project\Release\Obj\CtlI #
-#                            nterrupt.r43                                      #
-#                            D:\FCT_com\MasterMcu\IAR_project\Release\Obj\CtlK #
-#                            ey.r43                                            #
-#                            D:\FCT_com\MasterMcu\IAR_project\Release\Obj\CtlM #
-#                            otor.r43                                          #
-#                            D:\FCT_com\MasterMcu\IAR_project\Release\Obj\CtlP #
-#                            ower.r43                                          #
-#                            D:\FCT_com\MasterMcu\IAR_project\Release\Obj\CtlS #
-#                            piComm.r43                                        #
-#                            D:\FCT_com\MasterMcu\IAR_project\Release\Obj\CtlT #
-#                            ime.r43                                           #
-#                            D:\FCT_com\MasterMcu\IAR_project\Release\Obj\CtlT #
-#                            imer.r43                                          #
-#                            D:\FCT_com\MasterMcu\IAR_project\Release\Obj\DrvB #
-#                            eep.r43                                           #
-#                            D:\FCT_com\MasterMcu\IAR_project\Release\Obj\DrvC #
-#                            lk.r43                                            #
-#                            D:\FCT_com\MasterMcu\IAR_project\Release\Obj\DrvE #
-#                            ncoder.r43                                        #
-#                            D:\FCT_com\MasterMcu\IAR_project\Release\Obj\DrvF #
-#                            ram.r43                                           #
-#                            D:\FCT_com\MasterMcu\IAR_project\Release\Obj\DrvK #
-#                            ey.r43                                            #
-#                            D:\FCT_com\MasterMcu\IAR_project\Release\Obj\DrvL #
-#                            cd.r43                                            #
-#                            D:\FCT_com\MasterMcu\IAR_project\Release\Obj\DrvP #
-#                            ort.r43                                           #
-#                            D:\FCT_com\MasterMcu\IAR_project\Release\Obj\DrvP #
-#                            ower.r43                                          #
-#                            D:\FCT_com\MasterMcu\IAR_project\Release\Obj\DrvR #
-#                            tc.r43                                            #
-#                            D:\FCT_com\MasterMcu\IAR_project\Release\Obj\DrvS #
-#                            pi.r43                                            #
-#                            D:\FCT_com\MasterMcu\IAR_project\Release\Obj\DrvT #
-#                            imer.r43                                          #
-#                            D:\FCT_com\MasterMcu\IAR_project\Release\Obj\DrvU #
-#                            art.r43                                           #
-#                            D:\FCT_com\MasterMcu\IAR_project\Release\Obj\Font #
-#                            s.r43                                             #
-#                            D:\FCT_com\MasterMcu\IAR_project\Release\Obj\Init #
-#                            .r43                                              #
-#                            D:\FCT_com\MasterMcu\IAR_project\Release\Obj\main #
-#                            .r43                                              #
-#                            D:\FCT_com\MasterMcu\IAR_project\Release\Obj\test #
-#                            _comm.r43                                         #
-#                            D:\FCT_com\MasterMcu\IAR_project\Release\Obj\test #
-#                            _display.r43                                      #
-#                            D:\FCT_com\MasterMcu\IAR_project\Release\Obj\test #
-#                            _low_power.r43                                    #
-#                            D:\FCT_com\MasterMcu\IAR_project\Release\Obj\test #
-#                            _timer.r43                                        #
-#                            D:\FCT_com\MasterMcu\IAR_project\Release\Obj\unit #
-#                            _test.r43                                         #
-#                            D:\FCT_com\MasterMcu\IAR_project\Release\Obj\vers #
-#                            ion.r43                                           #
+#           Command line  =  D:\FCT_release\MasterMcu\IAR_project\Release\Obj\ #
+#                            AppComm.r43                                       #
+#                            D:\FCT_release\MasterMcu\IAR_project\Release\Obj\ #
+#                            AppCommon.r43                                     #
+#                            D:\FCT_release\MasterMcu\IAR_project\Release\Obj\ #
+#                            AppDelivery.r43                                   #
+#                            D:\FCT_release\MasterMcu\IAR_project\Release\Obj\ #
+#                            AppEngineerMode.r43                               #
+#                            D:\FCT_release\MasterMcu\IAR_project\Release\Obj\ #
+#                            AppFCT.r43                                        #
+#                            D:\FCT_release\MasterMcu\IAR_project\Release\Obj\ #
+#                            Common.r43                                        #
+#                            D:\FCT_release\MasterMcu\IAR_project\Release\Obj\ #
+#                            CtlAdc.r43                                        #
+#                            D:\FCT_release\MasterMcu\IAR_project\Release\Obj\ #
+#                            CtlComm.r43                                       #
+#                            D:\FCT_release\MasterMcu\IAR_project\Release\Obj\ #
+#                            CtlData.r43                                       #
+#                            D:\FCT_release\MasterMcu\IAR_project\Release\Obj\ #
+#                            CtlDelivery.r43                                   #
+#                            D:\FCT_release\MasterMcu\IAR_project\Release\Obj\ #
+#                            CtlDisplay.r43                                    #
+#                            D:\FCT_release\MasterMcu\IAR_project\Release\Obj\ #
+#                            CtlEvent.r43                                      #
+#                            D:\FCT_release\MasterMcu\IAR_project\Release\Obj\ #
+#                            CtlInterrupt.r43                                  #
+#                            D:\FCT_release\MasterMcu\IAR_project\Release\Obj\ #
+#                            CtlKey.r43                                        #
+#                            D:\FCT_release\MasterMcu\IAR_project\Release\Obj\ #
+#                            CtlMotor.r43                                      #
+#                            D:\FCT_release\MasterMcu\IAR_project\Release\Obj\ #
+#                            CtlPower.r43                                      #
+#                            D:\FCT_release\MasterMcu\IAR_project\Release\Obj\ #
+#                            CtlSpiComm.r43                                    #
+#                            D:\FCT_release\MasterMcu\IAR_project\Release\Obj\ #
+#                            CtlTime.r43                                       #
+#                            D:\FCT_release\MasterMcu\IAR_project\Release\Obj\ #
+#                            CtlTimer.r43                                      #
+#                            D:\FCT_release\MasterMcu\IAR_project\Release\Obj\ #
+#                            DrvBeep.r43                                       #
+#                            D:\FCT_release\MasterMcu\IAR_project\Release\Obj\ #
+#                            DrvClk.r43                                        #
+#                            D:\FCT_release\MasterMcu\IAR_project\Release\Obj\ #
+#                            DrvEncoder.r43                                    #
+#                            D:\FCT_release\MasterMcu\IAR_project\Release\Obj\ #
+#                            DrvFram.r43                                       #
+#                            D:\FCT_release\MasterMcu\IAR_project\Release\Obj\ #
+#                            DrvKey.r43                                        #
+#                            D:\FCT_release\MasterMcu\IAR_project\Release\Obj\ #
+#                            DrvLcd.r43                                        #
+#                            D:\FCT_release\MasterMcu\IAR_project\Release\Obj\ #
+#                            DrvPort.r43                                       #
+#                            D:\FCT_release\MasterMcu\IAR_project\Release\Obj\ #
+#                            DrvPower.r43                                      #
+#                            D:\FCT_release\MasterMcu\IAR_project\Release\Obj\ #
+#                            DrvRtc.r43                                        #
+#                            D:\FCT_release\MasterMcu\IAR_project\Release\Obj\ #
+#                            DrvSpi.r43                                        #
+#                            D:\FCT_release\MasterMcu\IAR_project\Release\Obj\ #
+#                            DrvTimer.r43                                      #
+#                            D:\FCT_release\MasterMcu\IAR_project\Release\Obj\ #
+#                            DrvUart.r43                                       #
+#                            D:\FCT_release\MasterMcu\IAR_project\Release\Obj\ #
+#                            Fonts.r43                                         #
+#                            D:\FCT_release\MasterMcu\IAR_project\Release\Obj\ #
+#                            Init.r43                                          #
+#                            D:\FCT_release\MasterMcu\IAR_project\Release\Obj\ #
+#                            main.r43                                          #
+#                            D:\FCT_release\MasterMcu\IAR_project\Release\Obj\ #
+#                            test_comm.r43                                     #
+#                            D:\FCT_release\MasterMcu\IAR_project\Release\Obj\ #
+#                            test_display.r43                                  #
+#                            D:\FCT_release\MasterMcu\IAR_project\Release\Obj\ #
+#                            test_low_power.r43                                #
+#                            D:\FCT_release\MasterMcu\IAR_project\Release\Obj\ #
+#                            test_timer.r43                                    #
+#                            D:\FCT_release\MasterMcu\IAR_project\Release\Obj\ #
+#                            unit_test.r43                                     #
+#                            D:\FCT_release\MasterMcu\IAR_project\Release\Obj\ #
+#                            version.r43                                       #
 #                            -o                                                #
-#                            D:\FCT_com\MasterMcu\IAR_project\Release\Exe\Spum #
-#                            p18_master.d43                                    #
+#                            D:\FCT_release\MasterMcu\IAR_project\Release\Exe\ #
+#                            Spump18_master.d43                                #
 #                            -l                                                #
-#                            D:\FCT_com\MasterMcu\IAR_project\Release\List\Spu #
-#                            mp18_master.map                                   #
+#                            D:\FCT_release\MasterMcu\IAR_project\Release\List #
+#                            \Spump18_master.map                               #
 #                            -xesn                                             #
 #                            "-IC:\Program Files\IAR Systems\Embedded Workbenc #
 #                            h 7.0\430\LIB\"                                   #
 #                            -f                                                #
-#                            D:\FCT_com\MasterMcu\IAR_project\msp430fr5989.xcl #
+#                            D:\FCT_release\MasterMcu\IAR_project\msp430fr5989 #
+#                            .xcl                                              #
 #                            (-D_STACK_SIZE=400 -D_DATA16_HEAP_SIZE=0          #
 #                            -D_DATA20_HEAP_SIZE=0 -cmsp430 -QCODE_I=CODE_ID   #
 #                            -QTLS16_I=TLS16_ID -D__iar_HWMUL=4C0              #
@@ -146,8 +147,8 @@
 #                            "C:\Program Files\IAR Systems\Embedded Workbench  #
 #                            7.0\430\lib\dlib\dl430xllfn.r43"                  #
 #                            -e_PrintfSmallNoMb=_Printf                        #
-#                            -Omsp430_txt=D:\FCT_com\MasterMcu\IAR_project\Rel #
-#                            ease\Exe\Spump18_master.txt                       #
+#                            -Omsp430_txt=D:\FCT_release\MasterMcu\IAR_project #
+#                            \Release\Exe\Spump18_master.txt                   #
 #                            -s __program_start -D__iar_430_MPU_base=0x5A0     #
 #                            -g?mpu2_init -D__iar_430_MPUCTL0_value=0x0011     #
 #                            -D__iar_430_MPUSAM_value=0x3513                   #
@@ -214,73 +215,74 @@ Module  Entry                                   Address
         _DATA20_HEAP_SIZE                        0000
         _DATA16_HEAP_SIZE                        0000
         _STACK_SIZE                              0400
-AppComm ( D:\FCT_com\MasterMcu\IAR_project\Release\Obj\AppComm.r43 )
+AppComm ( D:\FCT_release\MasterMcu\IAR_project\Release\Obj\AppComm.r43 )
         gg_last_cmd_return                       CC24
         g_curr_motor_current                     CC2E
         g_is_already_meet_hall                   D418
-        AppCommOnSetCmdToHallRespond             00014932
-        AppCommOnSetCmdSleepRespond              0001464C
-        AppCommOnSetCmdMotorRunRespond           00014638
-        AppCommOnSetCmdMotorStopRespond          000137C4
-        AppCommOnSetCmdPowerUpRespond            00013670
-        AppCommOnCommTestRespond                 0001446C
-        AppCommOnQueryMotorCurrentRespond        00014942
-        AppCommOnQueryAdcRespond                 0001469C
-        AppCommHandleCmdReturn                   00011372
-        g_comm_cmd_responds                      000149C6
-        g_comm_query_responds                    000149EA
-AppCommon ( D:\FCT_com\MasterMcu\IAR_project\Release\Obj\AppCommon.r43 )
-        AppStartRun                              00013FC6
-        AppStopRun                               000148C0
-        ExcuteSleep                              00013DFE
-        ExcuteHallLocationCal                    00014518
-AppDelivery ( D:\FCT_com\MasterMcu\IAR_project\Release\Obj\AppDelivery.r43 )
-        ConvertTimeToSecond                      00012E6E
-        DiffDateTimeInOneDay                     00012E06
-AppEngineerMode ( D:\FCT_com\MasterMcu\IAR_project\Release\Obj\AppEngineerMode.r43 )
-        strchr                                   000149A2
-        AppEngineerModeRepeatRun                 00014922
-        AppEngineerModeOnReceiveByte             000127A4
-        AppEngineerModeInit                      00014396
+        AppCommOnSetCmdToHallRespond             000149A4
+        AppCommOnSetCmdSleepRespond              000146BE
+        AppCommOnSetCmdMotorRunRespond           000146AA
+        AppCommOnSetCmdMotorStopRespond          00013738
+        AppCommOnSetCmdPowerUpRespond            0001377C
+        AppCommOnCommTestRespond                 000144DE
+        AppCommOnQueryMotorCurrentRespond        000149B4
+        AppCommOnQueryAdcRespond                 0001470E
+        AppCommHandleCmdReturn                   000113B2
+        g_comm_cmd_responds                      00014A38
+        g_comm_query_responds                    00014A5C
+AppCommon ( D:\FCT_release\MasterMcu\IAR_project\Release\Obj\AppCommon.r43 )
+        AppStartRun                              00014064
+        AppStopRun                               00014932
+        ExcuteSleep                              00013E70
+        ExcuteHallLocationCal                    0001458A
+AppDelivery ( D:\FCT_release\MasterMcu\IAR_project\Release\Obj\AppDelivery.r43 )
+        ConvertTimeToSecond                      00012F14
+        DiffDateTimeInOneDay                     00012E46
+AppEngineerMode ( D:\FCT_release\MasterMcu\IAR_project\Release\Obj\AppEngineerMode.r43 )
+        strchr                                   00014A14
+        AppEngineerModeRepeatRun                 00014994
+        AppEngineerModeOnReceiveByte             00012764
+        AppEngineerModeInit                      00014408
         g_app_engineer_receive_str               D419
         g_app_engineer_receive_index             CC30
         g_app_engineer_last_receive_str          D455
         g_app_engineer_is_enable_cmd             D491
         g_app_engineer_handlers_ptr              CC34
-        AppEngineerModeHelp                      00013466
-        AppEngineerModeExit                      00014884
-        AppEngineerModeRepeatLastCmd             000144E8
-        AppEngineerModeTime                      00013A82
-        AppEngineerModeEnableOutput              0001321E
-        AppEngineerModeDisableOutput             000131C6
-        AppEngineerModeReadData                  000105E6
-        AppEngineerModeOutputSensor              00013FF2
-        AppEngineerModeCancelSleep               0001437A
-        AppEngineerModeCalBattery                000139CC
-        AppEngineerModeTestWatchdog              000149AE
-        AppEngineerModeFakeMotorPos              00014288
-        AppEngineerModeStopWatchdog              00014660
-        AppEngineerModeRun                       000144D0
-        AppEngineerModeRunBack                   00013E88
-        AppEngineerModeClearData                 00013EB6
-        AppEngineerModePowerupCause              000145CC
-        AppEngineerModeFCTContinueMode           00014486
-        AppEngineerModeFCTMenuMode               000143EA
-        AppEngineerModeFCTCase0                  00014878
-        AppEngineerModeFCTCase1                  0001489C
-        AppEngineerModeFCTCase2                  00014860
-        AppEngineerModeFCTCase3                  000147DA
-        AppEngineerModeFCTCase4                  00014848
-        AppEngineerModeFCTCase5                  000147B0
-        AppEngineerModeFCTCase6                  000147A2
-        AppEngineerModeFCTCase7                  00014794
-        AppEngineerModeFCTCase8                  00014854
-        AppEngineerModeFCTCase9                  0001482E
-        AppEngineerModeFCTCase10                 000147F6
-        g_app_engineer_cmd_handlers              000149F6
-        AppEngineerModeParseParams               00013374
-        AppEngineerModeParseCmd                  0001119E
-AppFCT ( D:\FCT_com\MasterMcu\IAR_project\Release\Obj\AppFCT.r43 )
+        AppEngineerModeHelp                      000134A6
+        AppEngineerModeExit                      000148F6
+        AppEngineerModeRepeatLastCmd             0001455A
+        AppEngineerModeTime                      00013AC2
+        AppEngineerModeEnableOutput              00013206
+        AppEngineerModeDisableOutput             0001325E
+        AppEngineerModeReadData                  000104DE
+        AppEngineerModeOutputSensor              00014038
+        AppEngineerModeCancelSleep               000143EC
+        AppEngineerModeCalBattery                00013A0C
+        AppEngineerModeTestWatchdog              00014A20
+        AppEngineerModeFakeMotorPos              000142BA
+        AppEngineerModeStopWatchdog              000146D2
+        AppEngineerModeRun                       00014542
+        AppEngineerModeRunBack                   00013F28
+        AppEngineerModeClearData                 00013EFA
+        AppEngineerModeFctTestCom                00013D1E
+        AppEngineerModePowerupCause              0001463E
+        AppEngineerModeFCTContinueMode           000144F8
+        AppEngineerModeFCTMenuMode               0001445C
+        AppEngineerModeFCTCase0                  000148EA
+        AppEngineerModeFCTCase1                  0001490E
+        AppEngineerModeFCTCase2                  000148D2
+        AppEngineerModeFCTCase3                  0001484C
+        AppEngineerModeFCTCase4                  000148BA
+        AppEngineerModeFCTCase5                  00014822
+        AppEngineerModeFCTCase6                  00014814
+        AppEngineerModeFCTCase7                  00014806
+        AppEngineerModeFCTCase8                  000148C6
+        AppEngineerModeFCTCase9                  000148A0
+        AppEngineerModeFCTCase10                 00014868
+        g_app_engineer_cmd_handlers              00014A68
+        AppEngineerModeParseParams               000133B4
+        AppEngineerModeParseCmd                  000112C8
+AppFCT ( D:\FCT_release\MasterMcu\IAR_project\Release\Obj\AppFCT.r43 )
         _A_PAIN_L                                0200
         _A_PAOUT_L                               0202
         _A_PADIR_L                               0204
@@ -301,39 +303,39 @@ AppFCT ( D:\FCT_com\MasterMcu\IAR_project\Release\Obj\AppFCT.r43 )
         g_send_pulse_signal_status               CC1D
         g_pulse_signal_now                       D4AA
         g_pulse_signal_last                      D4AB
-        GetTimerTimeOut                          0001494A
-        WaitKeyPressed                           00014438
-        FCTLcdDisplay                            00013F6E
-        FCTLcdDisplayCenter                      000142C8
-        BeepOneTime                              00014404
-        FCTTestShowVersion                       00013C44
-        FCTTestShowSN                            00012F3A
-        FCTTestKey                               00012724
-        FCTTestLcd                               00012CC0
-        FCTTestBuzzer                            00012D2E
-        FCTTestVibrator                          00012D9A
-        test_com                                 00012ED4
-        FCTTestCom                               00010324
-        test_send_pulse                          00012A82
-        ReadPulseSignalLevel                     00014784
-        FCTTestPulse                             00010198
-        FCTTestMotor                             00011A52
-        FCTTestHall                              00010F96
-        FCTTestEncoder                           0001160E
-        FCTTestMotorCurrent                      00010AEE
+        GetTimerTimeOut                          000149BC
+        WaitKeyPressed                           000144AA
+        FCTLcdDisplay                            00013FE0
+        FCTLcdDisplayCenter                      0001433A
+        BeepOneTime                              00014476
+        FCTTestShowVersion                       00013CB8
+        FCTTestShowSN                            00012F7A
+        FCTTestKey                               000127E4
+        FCTTestLcd                               00012D00
+        FCTTestBuzzer                            00012D6E
+        FCTTestVibrator                          00012DDA
+        test_com                                 00012EAE
+        FCTTestCom                               000101AC
+        test_send_pulse                          00012AC2
+        ReadPulseSignalLevel                     000147F6
+        FCTTestPulse                             00010000
+        FCTTestMotor                             00011A92
+        FCTTestHall                              00010FD6
+        FCTTestEncoder                           0001164E
+        FCTTestMotorCurrent                      00010B2E
         FCTTestADC                               FCFC
-        FCTTestRTC                               0001049E
-        FCTTestSleepCurrent                      000130B4
-        FCTTestNormalCurrent                     00013628
-        FCTTestBacklightOnCurrent                00013276
-        FCTTestMotorOnCurrent                    0001354C
-        TestSpump                                0001291A
+        FCTTestRTC                               00010626
+        FCTTestSleepCurrent                      00013150
+        FCTTestNormalCurrent                     00013668
+        FCTTestBacklightOnCurrent                000132B6
+        FCTTestMotorOnCurrent                    0001358C
+        TestSpump                                00012A4A
         g_expect_circle                          CC42
         g_dose                                   D4AC
         g_delivery_counter                       D4AD
-        start_delivery                           00011E88
-        TestApump                                0001109C
-        FCTTestPrecision                         00012824
+        start_delivery                           00011EC8
+        TestApump                                000110DC
+        FCTTestPrecision                         00012864
         FCTTestStart                             F842
         PAIN                                     0200
         PAIN_H                                   0201
@@ -357,21 +359,21 @@ AppFCT ( D:\FCT_com\MasterMcu\IAR_project\Release\Obj\AppFCT.r43 )
         PCOUT_H                                  0243
         PCOUT_L                                  0242
         g_fct_case                               C802
-Common ( D:\FCT_com\MasterMcu\IAR_project\Release\Obj\Common.r43 )
+Common ( D:\FCT_release\MasterMcu\IAR_project\Release\Obj\Common.r43 )
         g_is_module_enable_output                D4AE
         g_module_names                           CC04
-        CommonInit                               000149C0
-        SetModuleOutput                          000148D4
-        SetModuleOutputByName                    00012FFC
-        IsEnableOutput                           00014910
-CtlAdc ( D:\FCT_com\MasterMcu\IAR_project\Release\Obj\CtlAdc.r43 )
-CtlComm ( D:\FCT_com\MasterMcu\IAR_project\Release\Obj\CtlComm.r43 )
-        CommOnRecvOneByteFromInternalCom         000118A0
-        CommHandleNewReceiveData                 00013418
-        CommSendBytes                            0001409A
+        CommonInit                               00014A32
+        SetModuleOutput                          00014946
+        SetModuleOutputByName                    000130F4
+        IsEnableOutput                           00014982
+CtlAdc ( D:\FCT_release\MasterMcu\IAR_project\Release\Obj\CtlAdc.r43 )
+CtlComm ( D:\FCT_release\MasterMcu\IAR_project\Release\Obj\CtlComm.r43 )
+        CommOnRecvOneByteFromInternalCom         000118E0
+        CommHandleNewReceiveData                 00013458
+        CommSendBytes                            0001410C
         g_comm_internal_packet                   D4B4
         g_comm_receive_pos_at_internal_packet    CC46
-CtlData ( D:\FCT_com\MasterMcu\IAR_project\Release\Obj\CtlData.r43 )
+CtlData ( D:\FCT_release\MasterMcu\IAR_project\Release\Obj\CtlData.r43 )
         g_motor_cali_circle                      CC48
         g_cali_hal_to_end_len                    CC4C
         g_occl_cal_min                           CC4E
@@ -399,124 +401,124 @@ CtlData ( D:\FCT_com\MasterMcu\IAR_project\Release\Obj\CtlData.r43 )
         g_batt_number                            CF80
         g_delivery_state                         D4C4
         SaveOrLoadSysPara                        EF74
-        SaveSysPara                              0001493A
-        LoadSysPara                              00014972
-        SortTheRecordData                        00012BDE
-        SaveRec                                  000126A4
-        SaveRecEx                                00010000
-        SaveMotorPos                             000117C6
-        GetThicknessValue                        000140EA
-        DoseToEncoder                            00012992
-        VolumeToEncoder                          00013C78
-        EncoderToVolume                          00013CDE
+        SaveSysPara                              000149AC
+        LoadSysPara                              000149E4
+        SortTheRecordData                        00012C1E
+        SaveRec                                  000126E4
+        SaveRecEx                                00010346
+        SaveMotorPos                             00011806
+        GetThicknessValue                        0001415C
+        DoseToEncoder                            000129D2
+        VolumeToEncoder                          00013C84
+        EncoderToVolume                          00013CEC
         g_motor_pos_manager                      CF82
-CtlDelivery ( D:\FCT_com\MasterMcu\IAR_project\Release\Obj\CtlDelivery.r43 )
+CtlDelivery ( D:\FCT_release\MasterMcu\IAR_project\Release\Obj\CtlDelivery.r43 )
         g_delivery_dest_encoder                  CF90
         g_delivery_deviation_encoder             CF94
         g_delivery_actural_encoder               CF98
         g_delivery_expect_encoder                CF9C
-        CtlDeliveryStart                         00013F9A
-CtlDisplay ( D:\FCT_com\MasterMcu\IAR_project\Release\Obj\CtlDisplay.r43 )
-        GetOffsetOfPage                          00011C84
-        DisplayFlush                             000122D2
-        DisplayFlushDirty                        0001316C
-        DisplayIsDirty                           0001492A
-        DisplaySetDirty                          0001197A
-        DisplayWriteData                         000146FE
-        DrawLineColumn                           000123F8
-        DisplayClearAll                          00014268
-        DisplayGetXSize                          00013110
-        DisplayOneCharAtPos                      00012B6C
-        DisplayTextAtPos                         000135E0
-        DisplayTextAtXCenter                     00013DD0
-        DisplayInit                              000148CA
+        CtlDeliveryStart                         0001400C
+CtlDisplay ( D:\FCT_release\MasterMcu\IAR_project\Release\Obj\CtlDisplay.r43 )
+        GetOffsetOfPage                          00011CC4
+        DisplayFlush                             0001227C
+        DisplayFlushDirty                        000131AC
+        DisplayIsDirty                           0001499C
+        DisplaySetDirty                          000119BA
+        DisplayWriteData                         00014770
+        DrawLineColumn                           00012438
+        DisplayClearAll                          0001429A
+        DisplayGetXSize                          0001303C
+        DisplayOneCharAtPos                      00012BAC
+        DisplayTextAtPos                         00013620
+        DisplayTextAtXCenter                     00013F56
+        DisplayInit                              0001493C
         g_display_cache                          D4C5
         g_display_dirty_rect                     CFA0
         g_display_is_dirty                       D6C5
         g_display_font_lib                       CFA8
-CtlEvent ( D:\FCT_com\MasterMcu\IAR_project\Release\Obj\CtlEvent.r43 )
-        CtlEventGet                              00011D32
-        CtlEventHandle                           00013D10
-        CtlEventHandleAll                        00014136
-        CtlEventPost                             0001223C
-        CtlEventBindHandle                       0001483C
-        CtlEventIsEmpty                          000143CE
+CtlEvent ( D:\FCT_release\MasterMcu\IAR_project\Release\Obj\CtlEvent.r43 )
+        CtlEventGet                              00011D72
+        CtlEventHandle                           00013E12
+        CtlEventHandleAll                        000141CC
+        CtlEventPost                             00012312
+        CtlEventBindHandle                       000148AE
+        CtlEventIsEmpty                          00014440
         g_event_queue                            CFAC
         g_event_queue_begin_index                D0D8
         g_event_queue_end_index                  D0DC
         g_event_handle_fun_arr                   D0E0
-CtlInterrupt ( D:\FCT_com\MasterMcu\IAR_project\Release\Obj\CtlInterrupt.r43 )
-        InterruptCtlInit                         000149C2
-CtlKey ( D:\FCT_com\MasterMcu\IAR_project\Release\Obj\CtlKey.r43 )
+CtlInterrupt ( D:\FCT_release\MasterMcu\IAR_project\Release\Obj\CtlInterrupt.r43 )
+        InterruptCtlInit                         00014A34
+CtlKey ( D:\FCT_release\MasterMcu\IAR_project\Release\Obj\CtlKey.r43 )
         g_key_handles                            D164
         g_combination_key_handles                D194
         g_combination_key_is_pressed             D6C6
-        g_combination_key_map                    00016834
+        g_combination_key_map                    0001698D
         g_key_monitor_funs                       D1A4
         g_key_is_block_when_one_key_pressed      D6C7
         g_key_current_handle_key                 D6CA
         g_key_current_valid_pressed_key          CC1E
-        CtlKeyScan                               000149B6
-        CtlKeyInit                               00014048
-        CtlKeyIsPressed                          0001455E
-        CtlKeyPressedCounter                     00013BD4
-        CtlKeyHandle                             00012368
-        CtlKeyCombinationHandle                  0001441E
-        CtlKeyPressHandle                        00011452
-        CtlKeyReleaseHandle                      00012596
-        CtlKeyHoldHandle                         000146C4
-        CtlKeyHold2sHandle                       0001460E
-CtlMotor ( D:\FCT_com\MasterMcu\IAR_project\Release\Obj\CtlMotor.r43 )
+        CtlKeyScan                               00014A28
+        CtlKeyInit                               000140BA
+        CtlKeyIsPressed                          000145D0
+        CtlKeyPressedCounter                     00013B6C
+        CtlKeyHandle                             000123A8
+        CtlKeyCombinationHandle                  00014490
+        CtlKeyPressHandle                        00011492
+        CtlKeyReleaseHandle                      0001254E
+        CtlKeyHoldHandle                         00014736
+        CtlKeyHold2sHandle                       00014680
+CtlMotor ( D:\FCT_release\MasterMcu\IAR_project\Release\Obj\CtlMotor.r43 )
         g_motor_running_dir                      CC1F
         g_motor_state                            CC20
         g_motor_need_to_state                    CC21
         g_motor_is_allow_stop_by_other_cpu       D6CB
         g_motor_stop_cause                       D6CC
         g_motor_stop_cause_of_alarm              D1B0
-        CtlMotorPrintStopInfor                   00010E82
-        CtlMotorCheckEncoderStop                 000116EA
-        CtlMotorStart                            00011B14
-        CtlMotorStopInternal                     00011BD0
-        CtlMotorStopEx                           00014734
-        CtlMotorIsRunning                        00014754
-        CtlMotorIsStoping                        00014674
-        CtlMotorInit                             000148A8
+        CtlMotorPrintStopInfor                   00010EC2
+        CtlMotorCheckEncoderStop                 0001172A
+        CtlMotorStart                            00011B54
+        CtlMotorStopInternal                     00011C10
+        CtlMotorStopEx                           000147A6
+        CtlMotorIsRunning                        000147C6
+        CtlMotorIsStoping                        000146E6
+        CtlMotorInit                             0001491A
         PBOUT                                    0222
         PBOUT_H                                  0223
         PBOUT_L                                  0222
         g_motor_last_encoder                     D1B2
         g_motor_first_stop_encoder               D1B6
         g_motor_stoping_time                     D1BA
-CtlPower ( D:\FCT_com\MasterMcu\IAR_project\Release\Obj\CtlPower.r43 )
-        CtlPwrInitial                            000149B2
-CtlSpiComm ( D:\FCT_com\MasterMcu\IAR_project\Release\Obj\CtlSpiComm.r43 )
+CtlPower ( D:\FCT_release\MasterMcu\IAR_project\Release\Obj\CtlPower.r43 )
+        CtlPwrInitial                            00014A24
+CtlSpiComm ( D:\FCT_release\MasterMcu\IAR_project\Release\Obj\CtlSpiComm.r43 )
         SpiCommInit                              FF7E
-        crc16                                    000134B4
-        SendSpiCommandToSlave                    0001497A
-        SendSpiCommandToSlaveEx                  00012AF8
-CtlTime ( D:\FCT_com\MasterMcu\IAR_project\Release\Obj\CtlTime.r43 )
+        crc16                                    00013540
+        SendSpiCommandToSlave                    000149EC
+        SendSpiCommandToSlaveEx                  00012B38
+CtlTime ( D:\FCT_release\MasterMcu\IAR_project\Release\Obj\CtlTime.r43 )
         g_time_is_tick_handled                   D6CD
-        CtlTimeOnOneTick                         00013B9C
-        CtlTimeElapse                            0001398E
-        CtlTimeSincePowerOn                      000147BE
-        CtlTimeIsTickHandled                     00014952
-        CtlTimeSetTickHandled                    0001495A
-CtlTimer ( D:\FCT_com\MasterMcu\IAR_project\Release\Obj\CtlTimer.r43 )
-        CtlTimerBindHandle                       000145F8
-        CtlTimerSet                              0001210C
-        CtlTimerSetRepeat                        00013D40
-        CtlTimerClear                            000145A0
-        CtlTimerIsExist                          000146B0
-        CtlTimerClearAll                         000128A0
-        CtlTimerHandle                           00010C28
+        CtlTimeOnOneTick                         00013C14
+        CtlTimeElapse                            000139CE
+        CtlTimeSincePowerOn                      00014830
+        CtlTimeIsTickHandled                     000149C4
+        CtlTimeSetTickHandled                    000149CC
+CtlTimer ( D:\FCT_release\MasterMcu\IAR_project\Release\Obj\CtlTimer.r43 )
+        CtlTimerBindHandle                       0001466A
+        CtlTimerSet                              0001214C
+        CtlTimerSetRepeat                        00013D82
+        CtlTimerClear                            00014612
+        CtlTimerIsExist                          00014722
+        CtlTimerClearAll                         000128E0
+        CtlTimerHandle                           00010C68
         g_timer_mgr                              D1BE
-DrvBeep ( D:\FCT_com\MasterMcu\IAR_project\Release\Obj\DrvBeep.r43 )
-        DrvBuzzSetState                          00014774
-        DrvVibMotorSetState                      00014764
+DrvBeep ( D:\FCT_release\MasterMcu\IAR_project\Release\Obj\DrvBeep.r43 )
+        DrvBuzzSetState                          000147E6
+        DrvVibMotorSetState                      000147D6
         PBOUT                                    0222
         PBOUT_H                                  0223
         PBOUT_L                                  0222
-DrvClk ( D:\FCT_com\MasterMcu\IAR_project\Release\Obj\DrvClk.r43 )
+DrvClk ( D:\FCT_release\MasterMcu\IAR_project\Release\Obj\DrvClk.r43 )
         _A_CSCTL0_L                              0160
         _A_CSCTL1_L                              0162
         _A_CSCTL2_L                              0164
@@ -524,7 +526,7 @@ DrvClk ( D:\FCT_com\MasterMcu\IAR_project\Release\Obj\DrvClk.r43 )
         _A_CSCTL4_L                              0168
         _A_CSCTL5_L                              016A
         _A_CSCTL6_L                              016C
-        ClockInit                                00013E5A
+        ClockInit                                00013E42
         CSCTL0                                   0160
         CSCTL0_H                                 0161
         CSCTL0_L                                 0160
@@ -546,7 +548,7 @@ DrvClk ( D:\FCT_com\MasterMcu\IAR_project\Release\Obj\DrvClk.r43 )
         CSCTL6                                   016C
         CSCTL6_H                                 016D
         CSCTL6_L                                 016C
-DrvEncoder ( D:\FCT_com\MasterMcu\IAR_project\Release\Obj\DrvEncoder.r43 )
+DrvEncoder ( D:\FCT_release\MasterMcu\IAR_project\Release\Obj\DrvEncoder.r43 )
         _A_PAIE_L                                021A
         _A_PAIFG_L                               021C
         TA0CTL                                   0340
@@ -566,11 +568,11 @@ DrvEncoder ( D:\FCT_com\MasterMcu\IAR_project\Release\Obj\DrvEncoder.r43 )
         g_encoder_hz                             D3C0
         g_encoder_hz_result                      D3C4
         g_encoder_is_hz_result_ready             D6D4
-        DrvEncoderInitial                        00014452
-        DrvEncoderEnable                         000132CC
-        DrvEncoderDisable                        000144B8
-        DrvEncoderDisableMotorPosMonitorOnce     0001496A
-        DrvPortClearWakeupFlag                   00014962
+        DrvEncoderInitial                        000144C4
+        DrvEncoderEnable                         0001330C
+        DrvEncoderDisable                        0001452A
+        DrvEncoderDisableMotorPosMonitorOnce     000149DC
+        DrvPortClearWakeupFlag                   000149D4
         Port1Isr                                 EC3C
         Timer0_A1_ISR                            EC60
         Port1Isr::??INTVEC 74                    FFDA
@@ -595,14 +597,14 @@ DrvEncoder ( D:\FCT_com\MasterMcu\IAR_project\Release\Obj\DrvEncoder.r43 )
         PBOUT_L                                  0222
         g_port_wakeup_flag                       D6CE
         g_encoder_is_disable_monitor_motor_pos   D6CF
-DrvFram ( D:\FCT_com\MasterMcu\IAR_project\Release\Obj\DrvFram.r43 )
-        FramReadData                             00014340
-        FramWriteData                            00014322
-DrvKey ( D:\FCT_com\MasterMcu\IAR_project\Release\Obj\DrvKey.r43 )
+DrvFram ( D:\FCT_release\MasterMcu\IAR_project\Release\Obj\DrvFram.r43 )
+        FramReadData                             000143B2
+        FramWriteData                            00014394
+DrvKey ( D:\FCT_release\MasterMcu\IAR_project\Release\Obj\DrvKey.r43 )
         g_key_hold_time                          D3C6
-        DrvKeyInitial                            00013B2C
-        DrvKeyGetState                           00010D60
-        DrvKeyPostClearState                     00013ABC
+        DrvKeyInitial                            00013C4C
+        DrvKeyGetState                           00010DA0
+        DrvKeyPostClearState                     00013AFC
         PAIN                                     0200
         PAIN_H                                   0201
         PAIN_L                                   0200
@@ -611,15 +613,15 @@ DrvKey ( D:\FCT_com\MasterMcu\IAR_project\Release\Obj\DrvKey.r43 )
         g_key_status_changed                     D6DB
         g_key_count                              D6DE
         DrvKeyGetValue                           00013910
-DrvLcd ( D:\FCT_com\MasterMcu\IAR_project\Release\Obj\DrvLcd.r43 )
+DrvLcd ( D:\FCT_release\MasterMcu\IAR_project\Release\Obj\DrvLcd.r43 )
         _A_PEOUT_L                               0282
         g_back_light_status                      CC22
-        DrvLcdInit                               00012A0A
-        DrvLcdClr                                00013058
-        DrvLcdSetPos                             00013500
-        DrvLcdWriteByte                          000136F8
-        DrvLcdSetBackLight                       00014574
-        DrvLcdLowPower                           000140C2
+        DrvLcdInit                               0001295A
+        DrvLcdClr                                00013098
+        DrvLcdSetPos                             000134F4
+        DrvLcdWriteByte                          00013848
+        DrvLcdSetBackLight                       000145E6
+        DrvLcdLowPower                           000140E4
         PAOUT                                    0202
         PAOUT_H                                  0203
         PAOUT_L                                  0202
@@ -629,7 +631,7 @@ DrvLcd ( D:\FCT_com\MasterMcu\IAR_project\Release\Obj\DrvLcd.r43 )
         PEOUT                                    0282
         PEOUT_H                                  0283
         PEOUT_L                                  0282
-DrvPort ( D:\FCT_com\MasterMcu\IAR_project\Release\Obj\DrvPort.r43 )
+DrvPort ( D:\FCT_release\MasterMcu\IAR_project\Release\Obj\DrvPort.r43 )
         _A_PAIES_L                               0218
         _A_PBDIR_L                               0224
         _A_PBSEL0_L                              022A
@@ -648,7 +650,7 @@ DrvPort ( D:\FCT_com\MasterMcu\IAR_project\Release\Obj\DrvPort.r43 )
         _A_PJSEL0_L                              032A
         _A_PJSEL1_L                              032C
         _A_PJSELC_L                              0336
-        PortInit                                 00011F30
+        PortInit                                 00011F70
         PAOUT                                    0202
         PAOUT_H                                  0203
         PAOUT_L                                  0202
@@ -721,19 +723,19 @@ DrvPort ( D:\FCT_com\MasterMcu\IAR_project\Release\Obj\DrvPort.r43 )
         PJSELC                                   0336
         PJSELC_H                                 0337
         PJSELC_L                                 0336
-DrvPower ( D:\FCT_com\MasterMcu\IAR_project\Release\Obj\DrvPower.r43 )
+DrvPower ( D:\FCT_release\MasterMcu\IAR_project\Release\Obj\DrvPower.r43 )
         _A_PM5CTL0_L                             0130
         _A_PJOUT_L                               0322
         _A_UCA0IE_L                              05DA
         _A_UCA1IE_L                              05FA
-        DrvInitPowerControl                      00014986
-        DrvMCULowPower                           0001491A
-        DrvPortLowPower                          0001206E
-        DrvBeepDisable                           0001498C
-        DrvVibDisable                            00014992
-        DrvRPIDisable                            00014998
-        DrvPowerEnterLowMode                     00013C0C
-        DrvPowerExitLowMode                      00014906
+        DrvInitPowerControl                      000149F8
+        DrvMCULowPower                           0001498C
+        DrvPortLowPower                          00012010
+        DrvBeepDisable                           000149FE
+        DrvVibDisable                            00014A04
+        DrvRPIDisable                            00014A0A
+        DrvPowerEnterLowMode                     00013BA4
+        DrvPowerExitLowMode                      00014978
         PM5CTL0                                  0130
         PM5CTL0_H                                0131
         PM5CTL0_L                                0130
@@ -812,15 +814,15 @@ DrvPower ( D:\FCT_com\MasterMcu\IAR_project\Release\Obj\DrvPower.r43 )
         UCA1IE                                   05FA
         UCA1IE_H                                 05FB
         UCA1IE_L                                 05FA
-DrvRtc ( D:\FCT_com\MasterMcu\IAR_project\Release\Obj\DrvRtc.r43 )
+DrvRtc ( D:\FCT_release\MasterMcu\IAR_project\Release\Obj\DrvRtc.r43 )
         _A_PCIN_L                                0240
         g_current_time                           D3CC
-        delay                                    000147CC
-        Write1Byte                               000136B4
-        Read1Byte                                0001388E
-        WData                                    00014072
-        BurstWrite1302                           000133C8
-        BurstRead1302                            00013A0A
+        delay                                    0001483E
+        Write1Byte                               000136F4
+        Read1Byte                                000138CE
+        WData                                    00014134
+        BurstWrite1302                           00013408
+        BurstRead1302                            00013A4A
         Ds1302TimeRead                           FEAA
         PCIN                                     0240
         PCIN_H                                   0241
@@ -831,8 +833,8 @@ DrvRtc ( D:\FCT_com\MasterMcu\IAR_project\Release\Obj\DrvRtc.r43 )
         PCDIR                                    0244
         PCDIR_H                                  0245
         PCDIR_L                                  0244
-        ConvertBcdToDec                          00013F12
-DrvSpi ( D:\FCT_com\MasterMcu\IAR_project\Release\Obj\DrvSpi.r43 )
+        ConvertBcdToDec                          00013ECC
+DrvSpi ( D:\FCT_release\MasterMcu\IAR_project\Release\Obj\DrvSpi.r43 )
         _A_UCB0CTLW0_L                           0640
         _A_UCB0BRW_L                             0646
         _A_UCB0STATW_L                           0648
@@ -872,7 +874,7 @@ DrvSpi ( D:\FCT_com\MasterMcu\IAR_project\Release\Obj\DrvSpi.r43 )
         UCB0IFG_H                                066D
         UCB0IFG_L                                066C
         USCI_B0_ISR::i                           D6E9
-DrvTimer ( D:\FCT_com\MasterMcu\IAR_project\Release\Obj\DrvTimer.r43 )
+DrvTimer ( D:\FCT_release\MasterMcu\IAR_project\Release\Obj\DrvTimer.r43 )
         TA0CCTL0                                 0342
         TA0CCR0                                  0352
         TA1CTL                                   0380
@@ -893,10 +895,10 @@ DrvTimer ( D:\FCT_com\MasterMcu\IAR_project\Release\Obj\DrvTimer.r43 )
         g_timer_next_check_rtc_count             D3F0
         g_auto_wakeup_timer_ms                   D3F4
         g_auto_wakeup_time                       D3F8
-        DrvTimerInitial                          00013CAC
-        DrvTimerCheckAndSetAutoWakeupTimer       0001261E
-        DrvTimerEnable                           00011288
-        DrvTimerDisable                          00012C50
+        DrvTimerInitial                          00013D50
+        DrvTimerCheckAndSetAutoWakeupTimer       0001265E
+        DrvTimerEnable                           000111DE
+        DrvTimerDisable                          00012C90
         TimerA0Isr                               EE5C
         TimerA1Isr                               EE5E
         TimerA2Isr                               EECA
@@ -907,7 +909,7 @@ DrvTimer ( D:\FCT_com\MasterMcu\IAR_project\Release\Obj\DrvTimer.r43 )
         TimerA1Isr::??INTVEC 78                  FFDE
         TimerA0Isr::??INTVEC 88                  FFE8
         TimerB0Isr::??INTVEC 102                 FFF6
-DrvUart ( D:\FCT_com\MasterMcu\IAR_project\Release\Obj\DrvUart.r43 )
+DrvUart ( D:\FCT_release\MasterMcu\IAR_project\Release\Obj\DrvUart.r43 )
         _A_UCA0CTLW0_L                           05C0
         _A_UCA0BRW_L                             05C6
         _A_UCA0MCTLW_L                           05C8
@@ -922,20 +924,20 @@ DrvUart ( D:\FCT_com\MasterMcu\IAR_project\Release\Obj\DrvUart.r43 )
         _A_UCA1TXBUF_L                           05EE
         _A_UCA1IFG_L                             05FC
         UCA1IV                                   05FE
-        DrvUart0Init                             00013E2C
-        DrvUart1Init                             00013EE4
-        Uart0SendByte                            00014804
-        Uart0SendData                            00014208
-        Uart1SendByte                            00014820
-        Uart1SendData                            00014228
-        UartOnReceiveNewByte                     00011DDE
-        UartReceivedBufferSize                   0001373C
-        UartReceiveByte                          00012484
-        UartGetNewDataFlag                       0001458A
-        UartClearNewDataFlag                     00014548
+        DrvUart0Init                             00013E9E
+        DrvUart1Init                             00013F84
+        Uart0SendByte                            00014876
+        Uart0SendData                            000142FA
+        Uart1SendByte                            00014892
+        Uart1SendData                            0001431A
+        UartOnReceiveNewByte                     00011E1E
+        UartReceivedBufferSize                   000137C0
+        UartReceiveByte                          000124C4
+        UartGetNewDataFlag                       000145FC
+        UartClearNewDataFlag                     000145BA
         USCI_A0_ISR                              EEF8
         USCI_A1_ISR                              EF1E
-        __write                                  0001384C
+        __write                                  0001388C
         USCI_A1_ISR::??INTVEC 84                 FFE4
         USCI_A0_ISR::??INTVEC 94                 FFEE
         PASEL0                                   020A
@@ -993,28 +995,28 @@ DrvUart ( D:\FCT_com\MasterMcu\IAR_project\Release\Obj\DrvUart.r43 )
         UCA1IFG_H                                05FD
         UCA1IFG_L                                05FC
         g_uart_rx_buff                           D6EA
-Fonts ( D:\FCT_com\MasterMcu\IAR_project\Release\Obj\Fonts.r43 )
-        nAsciiDot                                00016A19
-        g_AsciiDot_code                          00017025
-        gg_ASCII_font                            00015D56
-        FontFindCharIndex                        00013A46
-        FontFindCharPos                          000138D0
-        FontGetCharInfo                          0001250E
-Init ( D:\FCT_com\MasterMcu\IAR_project\Release\Obj\Init.r43 )
-        InitDriver                               0001401E
-        InitKernel                               00014530
-        InitApp                                  0001499E
-        SysInit                                  000141C4
-        InitDataIfNotInit                        000121A6
-        TestLcd                                  00013596
-        Initial                                  0001486C
-main ( D:\FCT_com\MasterMcu\IAR_project\Release\Obj\main.r43 )
+Fonts ( D:\FCT_release\MasterMcu\IAR_project\Release\Obj\Fonts.r43 )
+        nAsciiDot                                00016B72
+        g_AsciiDot_code                          0001717E
+        gg_ASCII_font                            00015E68
+        FontFindCharIndex                        00013A86
+        FontFindCharPos                          00013950
+        FontGetCharInfo                          000125D6
+Init ( D:\FCT_release\MasterMcu\IAR_project\Release\Obj\Init.r43 )
+        InitDriver                               00014090
+        InitKernel                               000145A2
+        InitApp                                  00014A10
+        SysInit                                  00014214
+        InitDataIfNotInit                        000121E6
+        TestLcd                                  000135D6
+        Initial                                  000148DE
+main ( D:\FCT_release\MasterMcu\IAR_project\Release\Obj\main.r43 )
         _A_SYSSNIV_L                             019C
         _A_SYSRSTIV_L                            019E
         _A_WDTCTL_L                              015C
         g_power_up_cause                         D414
-        __low_level_init                         000148E8
-        main                                     00011530
+        __low_level_init                         0001495A
+        main                                     00011570
         SYSNMI_ISR                               EF44
         SYSNMI_ISR::??INTVEC 108                 FFFC
         PM5CTL0                                  0130
@@ -1032,21 +1034,21 @@ main ( D:\FCT_com\MasterMcu\IAR_project\Release\Obj\main.r43 )
         WDTCTL                                   015C
         WDTCTL_H                                 015D
         WDTCTL_L                                 015C
-test_comm ( D:\FCT_com\MasterMcu\IAR_project\Release\Obj\test_comm.r43 )
-test_display ( D:\FCT_com\MasterMcu\IAR_project\Release\Obj\test_display.r43 )
-test_low_power ( D:\FCT_com\MasterMcu\IAR_project\Release\Obj\test_low_power.r43 )
-test_timer ( D:\FCT_com\MasterMcu\IAR_project\Release\Obj\test_timer.r43 )
-unit_test ( D:\FCT_com\MasterMcu\IAR_project\Release\Obj\unit_test.r43 )
-version ( D:\FCT_com\MasterMcu\IAR_project\Release\Obj\version.r43 )
+test_comm ( D:\FCT_release\MasterMcu\IAR_project\Release\Obj\test_comm.r43 )
+test_display ( D:\FCT_release\MasterMcu\IAR_project\Release\Obj\test_display.r43 )
+test_low_power ( D:\FCT_release\MasterMcu\IAR_project\Release\Obj\test_low_power.r43 )
+test_timer ( D:\FCT_release\MasterMcu\IAR_project\Release\Obj\test_timer.r43 )
+unit_test ( D:\FCT_release\MasterMcu\IAR_project\Release\Obj\unit_test.r43 )
+version ( D:\FCT_release\MasterMcu\IAR_project\Release\Obj\version.r43 )
 ?abort ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
 ?__dbg_break ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
-        __DebugBreak                             000149BE
+        __DebugBreak                             00014A30
 ?__exit ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
-        __exit                                   000145E2
+        __exit                                   00014654
 ?atoi ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
-        atoi                                     000148FC
+        atoi                                     0001496E
 ?_exit ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
-        _exit                                    000149A6
+        _exit                                    00014A18
 ?cppinit ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
 ?cstart ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
         __program_start                          EC00
@@ -1062,87 +1064,87 @@ version ( D:\FCT_com\MasterMcu\IAR_project\Release\Obj\version.r43 )
 ?errno ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
         __iar_Errno                              D416
 ?exit ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
-        exit                                     000149AA
+        exit                                     00014A1C
 ?Mul32fHw ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
-        ?Mul32fHw                                000109B0
+        ?Mul32fHw                                000109F0
 ?Cast32f32i ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
-        _Cast32sto32f                            00011FD0
-        _Cast32uto32f                            00011FE6
+        _Cast32sto32f                            000120AE
+        _Cast32uto32f                            000120C4
 _Cast32fto32u ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
-        _Cast32fto32u                            00014890
+        _Cast32fto32u                            00014902
 ?FLT_Extract ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
-        ?FLT_Extract                             00013320
+        ?FLT_Extract                             00013360
 _Div32f ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
-        _Div32f                                  00010870
+        _Div32f                                  000108B0
 _Add32f ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
 ?malloc ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
 ?DivMod816u ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
-        ?DivMod8u                                000143B2
-        ?DivMod16u                               000143B6
+        ?DivMod8u                                00014424
+        ?DivMod16u                               00014428
 ?DivMod816s ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
-        ?DivMod8s                                00013B64
-        ?DivMod16s                               00013B68
+        ?DivMod8s                                00013B34
+        ?DivMod16s                               00013B38
 ?DivMod32u ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
-        ?DivMod32u                               00013780
+        ?DivMod32u                               00013804
 ?DivMod32s ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
-        ?DivMod32s                               00013808
+        ?DivMod32s                               000136B0
 ?ShiftLeft32 ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
 ?ShiftLeft32_8n ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
 ?memchr ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
-        __iar_Memchr                             000141E6
+        __iar_Memchr                             00014236
 ?memcmp ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
-        memcmp                                   00013DA0
+        memcmp                                   00013DB2
 ?memcpy ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
-        memcpy                                   00014304
+        memcpy                                   00014376
 ?memmove ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
 ?CopyMemoryBytes ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
-        ?CopyMemoryBytes                         00014688
+        ?CopyMemoryBytes                         000146FA
 ?CopyMemoryWords20 ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
-        ?CopyMemoryWords20                       000145B6
+        ?CopyMemoryWords20                       00014628
 ?memset ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
-        memset                                   000142E6
+        memset                                   00014358
 ?memzero ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
-        __data20_memzero                         00014500
-        __data20_memcpy                          000149BA
+        __data20_memzero                         00014572
+        __data20_memcpy                          00014A2C
 ?MpuInit ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
-        __iar_430_mpu_init                       00014248
-        ?mpu2_init                               00014248
+        __iar_430_mpu_init                       0001427A
+        ?mpu2_init                               0001427A
 ?Mul32Hw32 ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
-        ?Mul32Hw32                               0001415A
+        ?Mul32Hw32                               000141A8
 ?printf ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
-        printf                                   0001435E
+        printf                                   000143D0
 ?putchar ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
-        putchar                                  00013F40
+        putchar                                  00013FB2
 ?puts ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
-        puts                                     00013950
+        puts                                     00013990
 ?setjmp ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
 ?longjmp ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
 ?sprintf ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
-        sprintf                                  00013AF4
+        sprintf                                  00013BDC
 ?strchr ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
-        __iar_Strchr                             00014744
+        __iar_Strchr                             000147B6
 ?strcmp ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
-        strcmp                                   000141A2
+        strcmp                                   00014258
 ?strcpy ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
-        strcpy                                   00014710
+        strcpy                                   00014782
 ?strlen ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
-        strlen                                   000142A8
+        strlen                                   000142DA
 ?xcloseall ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
 ?xgetmemchunk ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
 ?xprintfsmall_nomb ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
         _PrintfSmallNoMb                         F494
-        LoadInt                                  00012F9E
-        pad                                      00013D70
-        _LitobSmallNoMb                          0001072E
-        _PutcharSmallNoMb                        0001417E
-        _PutcharsSmallNoMb                       00014110
+        LoadInt                                  00012FDE
+        pad                                      00013DE2
+        _LitobSmallNoMb                          0001076E
+        _PutcharSmallNoMb                        000141F0
+        _PutcharsSmallNoMb                       00014182
 ?xprout ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
-        _Prout                                   000144A0
+        _Prout                                   00014512
 ?xsprout ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
-        _SProut                                  000146EC
+        _SProut                                  0001475E
 ?xstoul ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
         __iar_Stoulx                             FB4A
-        __iar_Stoul                              00014980
+        __iar_Stoul                              000149F2
 ?xxmemxfree ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
 ?xxmemxmalloc ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
 
@@ -1195,9 +1197,9 @@ Module                CODE      DATA       CONST
 AppComm                462     13            207
 AppCommon              124                     7
 AppDelivery            206
-AppEngineerMode      1 682    129          5 645
+AppEngineerMode      1 732    129          5 876
   + shared               4
-AppFCT               5 268  1 072          2 701
+AppFCT               5 332  1 072          2 701
   + shared                            14
 Common                 114     30             82
 CtlComm                336     12             80
@@ -1241,7 +1243,7 @@ main                   280      2      6      25
 N/A (command line)          1 024
 N/A (alignment)
 ----------          ------  -----    ---  ------
-Total:              23 880  4 975    168  11 178
+Total:              23 994  4 975    168  11 409
   + common             110
 
 
@@ -1310,11 +1312,11 @@ ISR_CODE                               EC3C - EF73             338   rel    1
 <CODE> 1                               EF74 - FF7F            100C   rel    1
 INTVEC                                 FF90 - FFFD              6E   com    1
 RESET                                  FFFE - FFFF               2   rel    1
-<CODE> 2                           00010000 - 000149C3        49C4   rel    1
-CODE_PAD                           000149C4 - 000149C5           2   rel    1
-DATA20_C                           000149C6 - 00017144        277F   rel    1
-DATA20_ID                          00017146 - 00017568         423   rel    1
-CODE_ID                                 0001756A                     rel    1
+<CODE> 2                           00010000 - 00014A35        4A36   rel    1
+CODE_PAD                           00014A36 - 00014A37           2   rel    1
+DATA20_C                           00014A38 - 0001729D        2866   rel    1
+DATA20_ID                          0001729E - 000176C0         423   rel    1
+CODE_ID                                 000176C2                     rel    1
 
                 ****************************************
                 *                                      *
@@ -1322,9 +1324,9 @@ CODE_ID                                 0001756A                     rel    1
                 *                                      *
                 ****************************************
 
- 23 990 bytes of CODE  memory
+ 24 104 bytes of CODE  memory
   4 975 bytes of DATA  memory (+ 168 absolute )
- 11 178 bytes of CONST memory
+ 11 409 bytes of CONST memory
 
 Errors: none
 Warnings: none

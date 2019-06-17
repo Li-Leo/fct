@@ -350,6 +350,10 @@ void FCTTestPulse(T_CHAR* case_name)
     }
     CtlTimerClear(E_TIMER_COMMON_DELAY);
     sprintf(g_display_string, "T:%ld R:%ld", g_com_test_send_counter, g_com_test_receive_counter);
+
+    *(T_U32 *)FRAM_ADDR_FCT_SEND_PULSE = g_com_test_send_counter;
+    *(T_U32 *)FRAM_ADDR_FCT_RECV_PULSE = g_com_test_receive_counter; 
+
     FCTLcdDisplay(g_display_string,"Press key '-'");
     WaitKeyPressed(E_KEY_MINUS);
 
@@ -673,7 +677,7 @@ void FCTTestADC(T_CHAR* case_name)
         printf("%s\n",g_display_string);
     }    
 
-    if(g_battery_voltage > 2600)
+    if(g_battery_voltage > 2500)
     {
         offset = 3000 - g_battery_voltage;
         g_battery_voltage_offset = offset;
