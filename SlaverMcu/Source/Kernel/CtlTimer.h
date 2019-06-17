@@ -83,6 +83,7 @@ typedef enum
     E_TIMER_CHECK_IS_REACH_EXPECT_ENCODER, //used to check is reach expect encoder
 	/*id end, do not add timer id after this line*/
     E_TIMER_COM_TEST,
+    E_TIMER_PULSE_TEST,
 	E_TIMER_MAX						//it is indicate the size of timer ids, it must be at the end 
 }TE_TIMER_ID;
 

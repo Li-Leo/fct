@@ -208,7 +208,7 @@ static T_S32 AppEngineerModeTestComStop(const T_CHAR* cmd, T_CHAR* params[], T_S
 static T_S32 AppEngineerModeComTest(const T_CHAR* cmd, T_CHAR* params[], T_S32 param_size)
 {
 
-    printf("fct com test recv: %ld\n", *(T_U32 *)FRAM_ADDR_FCT_RECV);
+    printf("fct com test recv: %ld\nfct pulse test recv: %ld\n", *(T_U32 *)FRAM_ADDR_FCT_RECV,*(T_U32 *)FRAM_ADDR_FCT_RECV_PULSE);
 
     return 0;
 }

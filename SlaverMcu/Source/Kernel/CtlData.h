@@ -68,6 +68,8 @@
 
 #define MOTOR_POS_COUNTER_MAX	0xA0000
 #define FRAM_ADDR_FCT_RECV      0x1800
+#define FRAM_ADDR_FCT_RECV_PULSE      0x1804
+
 
 TE_BOOLEAN WriteToFram(T_U32 fram_address,T_U32 * p_buf,T_U16 buf_len);
 TE_BOOLEAN ReadFromFram(T_U32 fram_address,T_U32 * p_buf,T_U16 buf_len);

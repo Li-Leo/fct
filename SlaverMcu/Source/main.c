@@ -32,6 +32,10 @@ extern T_U8  g_motor_current_done;
 T_U16 g_power_up_cause;
 
 TE_BOOLEAN g_gpio_signal_status = E_TRUE;
+TE_BOOLEAN g_pulse_signal_now = E_FALSE;
+TE_BOOLEAN g_pulse_signal_last = E_FALSE;
+T_U32 g_pulse_test_receive_counter= 0;
+
 void gpio_toggle()
 {
     if(g_gpio_signal_status == E_FALSE)
@@ -46,6 +50,19 @@ void gpio_toggle()
         P3OUT |= (BIT4|BIT5);
         g_gpio_signal_status = E_FALSE;
     }
+}
+
+TE_BOOLEAN ReadPulseSignalLevel()
+{
+    TE_BOOLEAN pul_sig = E_FALSE;
+    
+	pul_sig = ((SCAN_PULSE_SIGNAL_STATUS & BIT1) != 0) ? E_TRUE : E_FALSE;
+	return pul_sig;
+}
+
+void test_pulse_save_recv(void)
+{
+    *(T_U32 *)FRAM_ADDR_FCT_RECV_PULSE = g_pulse_test_receive_counter;
 }
 
 void main()
@@ -111,6 +128,14 @@ void main()
         g_motor_is_need_check_hall = E_FALSE;
         SetSpiCommandToMaster(HEAD_FC,COMM_TH,0,0);//tell master have meet hall
       }
+    }
+
+    g_pulse_signal_now = ReadPulseSignalLevel();
+    if (g_pulse_signal_now != g_pulse_signal_last){
+        g_pulse_signal_last = g_pulse_signal_now;
+        g_pulse_test_receive_counter++;
+        CtlTimerBindHandle(E_TIMER_PULSE_TEST, test_pulse_save_recv);
+        CtlTimerSetRepeat(E_TIMER_PULSE_TEST, 2000);
     }
 
     if((SCAN_PULSE_SIGNAL_STATUS & BIT1) != 0){
