@@ -1,0 +1,34 @@
+#添加IAR的编译器的路径
+#ENV['path'] += ';c:\Program Files (x86)\IAR Systems\Embedded Workbench 6.5\common\bin'
+
+desc "generate project file"
+task :project do
+	sh "ruby ../../Tools/create_project_file/create_iar_project_file.rb ./"
+end
+
+desc "build debug bin"
+task :debug do
+	sh "ruby ../../Tools/make_release/make_release.rb ./ --not_clear Debug"
+end
+
+desc "build release bin"
+task :release do
+	sh "ruby ../../Tools/make_release/make_release.rb ./ --not_clear"
+end
+
+desc "clean"
+task :clean do
+	sh "iarbuild IAR_project/Spump18_slaver.ewp -clean Debug"
+	sh "iarbuild IAR_project/Spump18_slaver.ewp -clean Release"
+	sh "iarbuild IAR_project/Spump18_slaver.ewp -clean UT"
+end
+
+desc "build debug bin"
+task :default => [:debug] do
+end
+
+desc "lint"
+task :lint do
+	#cd "./Tools/PC-lint"
+	sh "ruby ./Tools/PC-lint/lint.rb "
+end

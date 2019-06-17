@@ -1,0 +1,46 @@
+//  Project's lint options
+
+
+//add project's macro
+//-d_DEBUG=1
+-dNDEBUG
+
+
+//add head file directory of project
+-i"%PROJ_PATH%\source;%PROJ_PATH%\source\common;%PROJ_PATH%\source\driver;%PROJ_PATH%\source\kernel;%PROJ_PATH%\source\app;%PROJ_PATH%\source\cpu;"
+-i"%PROJ_PATH%\Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x\"
+-i"%PROJ_PATH%\Lib\STM32F10x_StdPeriph_Driver\inc\"
+-i"c:\Program Files\IAR Systems\Embedded Workbench 7.0\430\inc\clib\"
+-i"c:\Program Files\IAR Systems\Embedded Workbench 7.0\430\inc\"
+
+//set some head file directory as lib directory
++libdir("c:\Program Files\IAR Systems\Embedded Workbench 7.0\*")
++libdir("%PROJ_PATH%\Lib\*")
+
+
+
+
+// Output a summary at the end of analysis.
+-summary()
+
+//set thread_lock, thread_unlock , thread function, safe thread function
+-sem( EnterCritical, thread_lock )
+-sem( ExitCritical, thread_unlock )
+
+-sem( main, thread_mono )
+//-sem( SysTick_Handler, thread_mono )
+
+
+//-sem( _lwevent_set, thread_protected )
+//-sem( _lwevent_clear, thread_protected )
+//-sem( _lwevent_wait_ticks, thread_protected )
+
+//suppress some warning of project
+project-message.lnt
+
+//  issue a error size message at termination.
++e900     
+//set _task_block funtion as exit
+//-function( exit, _task_block )
+
+env-si.lnt

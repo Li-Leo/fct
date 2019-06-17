@@ -1,0 +1,1748 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>1475616018</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\Source\Kernel\CtlAlarm.c</file>
+      <file>$PROJ_DIR$\..\Source\Kernel\CtlAlarm.h</file>
+      <file>$PROJ_DIR$\..\Source\Kernel\CtlComm.c</file>
+      <file>$PROJ_DIR$\..\Source\Kernel\CtlData.c</file>
+      <file>$PROJ_DIR$\..\Source\Kernel\CtlData.h</file>
+      <file>$PROJ_DIR$\..\Source\Kernel\CtlDelivery.c</file>
+      <file>$PROJ_DIR$\..\Source\Kernel\CtlDelivery.h</file>
+      <file>$PROJ_DIR$\..\Source\Kernel\CtlEvent.c</file>
+      <file>$PROJ_DIR$\..\Source\Kernel\CtlEvent.h</file>
+      <file>$PROJ_DIR$\..\Source\Kernel\CtlInterrupt.c</file>
+      <file>$PROJ_DIR$\..\Source\Kernel\CtlInterrupt.h</file>
+      <file>$PROJ_DIR$\..\Source\Kernel\CtlMotor.c</file>
+      <file>$PROJ_DIR$\..\Source\Kernel\CtlMotor.h</file>
+      <file>$PROJ_DIR$\..\Source\Kernel\CtlPower.c</file>
+      <file>$PROJ_DIR$\..\Source\Kernel\CtlPower.h</file>
+      <file>$PROJ_DIR$\..\Source\Kernel\CtlSpiComm.c</file>
+      <file>$PROJ_DIR$\..\Source\Kernel\CtlSpiComm.h</file>
+      <file>$PROJ_DIR$\..\Source\Kernel\CtlTime.c</file>
+      <file>$PROJ_DIR$\..\Source\Kernel\CtlTime.h</file>
+      <file>$PROJ_DIR$\..\Source\Kernel\CtlTimer.c</file>
+      <file>$PROJ_DIR$\..\Source\Kernel\CtlTimer.h</file>
+      <file>$PROJ_DIR$\..\Source\Common.c</file>
+      <file>$PROJ_DIR$\..\Source\Common.h</file>
+      <file>$PROJ_DIR$\..\Source\main.c</file>
+      <file>$PROJ_DIR$\..\Source\msp430fr5989.h</file>
+      <file>$PROJ_DIR$\..\Source\TypeDefine.h</file>
+      <file>$PROJ_DIR$\..\Source\version.c</file>
+      <file>$PROJ_DIR$\..\UT\test_battery.c</file>
+      <file>$PROJ_DIR$\..\UT\test_low_power.c</file>
+      <file>$PROJ_DIR$\..\UT\test_pulse.c</file>
+      <file>$PROJ_DIR$\..\UT\test_timer.c</file>
+      <file>$PROJ_DIR$\..\UT\unit_test.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\CtlAdc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\DrvMotor.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\CtlTimer.pbi</file>
+      <file>$PROJ_DIR$\Debug\Exe\Spump18_slaver.ulp</file>
+      <file>$PROJ_DIR$\Debug\Obj\CtlComm.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\test_battery.r43</file>
+      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\CtlData.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\AppAlarm.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\CtlMotor.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\AppEventHandle.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\CtlInterrupt.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\CtlComm.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\DrvSpi.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\CtlTime.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\CtlPower.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\DrvEncoder.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\DrvAdc.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\Common.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\DrvHall.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\Init.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\test_pulse.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\CtlEvent.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\CtlSpiComm.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\test_pulse.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\DrvUart.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\version.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\unit_test.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ycheck.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\CtlAdc.r43</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ystdio.h</file>
+      <file>$PROJ_DIR$\Debug\Exe\Spump18_slaver.d43</file>
+      <file>$TOOLKIT_DIR$\inc\in430.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\CtlAlarm.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\CtlEvent.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\test_timer.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\DrvFram.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\DrvPort.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ysizet.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\yvals.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\AppMonitor.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\CtlDelivery.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\Common.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\Init.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\DrvPower.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\DrvFram.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\test_timer.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\AppSysState.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\DrvBeep.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\test_low_power.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\AppMonitor.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\DrvMotor.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\CtlInterrupt.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\version.r43</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\string.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\test_low_power.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\AppAlarm.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\test_battery.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\unit_test.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\AppEngineerMode.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\DrvBeep.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\DrvSpi.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\DrvClk.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\AppEventHandle.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\CtlTimer.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\DrvPower.pbi</file>
+      <file>$TOOLKIT_DIR$\lib\dlib\dl430xllfn.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\DrvClk.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\CtlPower.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\DrvEncoder.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\CtlData.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\DrvPort.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\DrvTimer.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\CtlAlarm.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\DrvTimer.r43</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\AppSysState.r43</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\assert.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\CtlDelivery.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\DrvHall.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\CtlSpiComm.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\DrvAdc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\stdio.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\CtlMotor.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\DrvUart.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\CtlTime.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\AppEngineerMode.pbi</file>
+      <file>$PROJ_DIR$\..\Source\App\AppAlarm.h</file>
+      <file>$PROJ_DIR$\..\Source\App\AppAlarm.c</file>
+      <file>$PROJ_DIR$\..\Source\App\AppEngineerMode.c</file>
+      <file>$PROJ_DIR$\..\Source\App\AppEngineerMode.h</file>
+      <file>$PROJ_DIR$\..\Source\App\AppEventHandle.c</file>
+      <file>$PROJ_DIR$\..\Source\App\AppEventHandle.h</file>
+      <file>$PROJ_DIR$\..\Source\App\AppMonitor.c</file>
+      <file>$PROJ_DIR$\..\Source\App\AppMonitor.h</file>
+      <file>$PROJ_DIR$\..\Source\App\AppSysState.c</file>
+      <file>$PROJ_DIR$\..\Source\App\Init.c</file>
+      <file>$PROJ_DIR$\..\Source\App\Init.h</file>
+      <file>$PROJ_DIR$\..\Source\Driver\DrvAdc.c</file>
+      <file>$PROJ_DIR$\..\Source\Driver\DrvAdc.h</file>
+      <file>$PROJ_DIR$\..\Source\Driver\DrvBeep.c</file>
+      <file>$PROJ_DIR$\..\Source\Driver\DrvClk.c</file>
+      <file>$PROJ_DIR$\..\Source\Driver\DrvClk.h</file>
+      <file>$PROJ_DIR$\..\Source\Driver\DrvEncoder.c</file>
+      <file>$PROJ_DIR$\..\Source\Driver\DrvEncoder.h</file>
+      <file>$PROJ_DIR$\..\Source\Driver\DrvFram.c</file>
+      <file>$PROJ_DIR$\..\Source\Driver\DrvFram.h</file>
+      <file>$PROJ_DIR$\..\Source\Driver\DrvHall.c</file>
+      <file>$PROJ_DIR$\..\Source\Driver\DrvMotor.c</file>
+      <file>$PROJ_DIR$\..\Source\Driver\DrvMotor.h</file>
+      <file>$PROJ_DIR$\..\Source\Driver\DrvPort.c</file>
+      <file>$PROJ_DIR$\..\Source\Driver\DrvPort.h</file>
+      <file>$PROJ_DIR$\..\Source\Driver\DrvPower.c</file>
+      <file>$PROJ_DIR$\..\Source\Driver\DrvPower.h</file>
+      <file>$PROJ_DIR$\..\Source\Driver\DrvSpi.c</file>
+      <file>$PROJ_DIR$\..\Source\Driver\DrvSpi.h</file>
+      <file>$PROJ_DIR$\..\Source\Driver\DrvTimer.c</file>
+      <file>$PROJ_DIR$\..\Source\Driver\DrvTimer.h</file>
+      <file>$PROJ_DIR$\..\Source\Driver\DrvUart.c</file>
+      <file>$PROJ_DIR$\..\Source\Kernel\CtlAdc.c</file>
+      <file>$PROJ_DIR$\..\Source\Kernel\CtlAdc.h</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 66</file>
+        </tool>
+        <tool>
+          <name>ULP430</name>
+          <file> 35</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\Kernel\CtlAlarm.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 109</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 68</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\Kernel\CtlComm.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 45</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 36</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\Kernel\CtlData.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 106</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 39</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\Kernel\CtlDelivery.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 76</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 114</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\Kernel\CtlEvent.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 69</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 56</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\Kernel\CtlInterrupt.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 44</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 87</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\Kernel\CtlMotor.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 120</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 41</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\Kernel\CtlPower.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 104</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 48</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\Kernel\CtlSpiComm.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 116</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 57</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\Kernel\CtlTime.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 47</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 122</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\Kernel\CtlTimer.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 99</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 34</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\Common.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 77</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 51</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\main.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 102</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 118</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\version.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 88</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 61</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\UT\test_battery.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 37</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 92</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\UT\test_low_power.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 90</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 84</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\UT\test_pulse.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 58</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 54</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\UT\test_timer.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 70</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 81</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\UT\unit_test.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 93</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 62</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\App\AppAlarm.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 40</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 91</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 73 25 55 24 18 63 10 20 8 113 43 111 101 74 67 1 22 119 65 60 139 124 38 154</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\App\AppEngineerMode.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 94</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 123</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 101 24 18 6 25 136 63 43 157 89 124 67 73 111 74 22 119 127 20 131 38 65 55 139 141 8 60 113 10 154 146</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\App\AppEventHandle.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 98</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 42</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 24 20 141 67 25 60 6 18 73 8 131 12 119 146 10 154 63 129 38 139 74 65 43 111 101 55</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\App\AppMonitor.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 75</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 85</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 150 25 24 38 148 119 16 136 74 8 146 157 4 124 67 10 22 20 6 14 18 141 139 143 154 152 134 65 60 63 131 113 73 43 111 101 55</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\App\AppSysState.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 112</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 82</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 20 25 6 141 24 67 38 139 8 131 4 146 143 129 10</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\App\Init.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 53</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 78</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\Driver\DrvAdc.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 50</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 117</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\Driver\DrvBeep.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 83</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 95</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\Driver\DrvClk.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 97</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 103</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\Driver\DrvEncoder.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 49</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 105</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\Driver\DrvFram.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 80</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 71</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\Driver\DrvHall.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 115</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 52</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\Driver\DrvMotor.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 33</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 86</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\Driver\DrvPort.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 107</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 72</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\Driver\DrvPower.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 79</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 100</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\Driver\DrvSpi.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 96</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 46</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\Driver\DrvTimer.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 110</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 108</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\Driver\DrvUart.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 121</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 59</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\Kernel\CtlAdc.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 64</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 32</file>
+        </tool>
+      </outputs>
+    </file>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>XLINK</tool>
+    </forcedrebuild>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\Source\Kernel\CtlAlarm.c</file>
+      <file>$PROJ_DIR$\..\Source\Kernel\CtlAlarm.h</file>
+      <file>$PROJ_DIR$\..\Source\Kernel\CtlComm.c</file>
+      <file>$PROJ_DIR$\..\Source\Kernel\CtlComm.h</file>
+      <file>$PROJ_DIR$\..\Source\Kernel\CtlData.c</file>
+      <file>$PROJ_DIR$\..\Source\Kernel\CtlData.h</file>
+      <file>$PROJ_DIR$\..\Source\Kernel\CtlDelivery.c</file>
+      <file>$PROJ_DIR$\..\Source\Kernel\CtlDelivery.h</file>
+      <file>$PROJ_DIR$\..\Source\Kernel\CtlEvent.c</file>
+      <file>$PROJ_DIR$\..\Source\Kernel\CtlEvent.h</file>
+      <file>$PROJ_DIR$\..\Source\Kernel\CtlInterrupt.c</file>
+      <file>$PROJ_DIR$\..\Source\Kernel\CtlInterrupt.h</file>
+      <file>$PROJ_DIR$\..\Source\Kernel\CtlMotor.c</file>
+      <file>$PROJ_DIR$\..\Source\Kernel\CtlMotor.h</file>
+      <file>$PROJ_DIR$\..\Source\Kernel\CtlPower.c</file>
+      <file>$PROJ_DIR$\..\Source\Kernel\CtlPower.h</file>
+      <file>$PROJ_DIR$\..\Source\Kernel\CtlSpiComm.c</file>
+      <file>$PROJ_DIR$\..\Source\Kernel\CtlSpiComm.h</file>
+      <file>$PROJ_DIR$\..\Source\Kernel\CtlTime.c</file>
+      <file>$PROJ_DIR$\..\Source\Kernel\CtlTime.h</file>
+      <file>$PROJ_DIR$\..\Source\Kernel\CtlTimer.c</file>
+      <file>$PROJ_DIR$\..\Source\Kernel\CtlTimer.h</file>
+      <file>$PROJ_DIR$\..\Source\Common.c</file>
+      <file>$PROJ_DIR$\..\Source\Common.h</file>
+      <file>$PROJ_DIR$\..\Source\main.c</file>
+      <file>$PROJ_DIR$\..\Source\msp430fr5989.h</file>
+      <file>$PROJ_DIR$\..\Source\TypeDefine.h</file>
+      <file>$PROJ_DIR$\..\Source\version.c</file>
+      <file>$PROJ_DIR$\..\Source\version.h</file>
+      <file>$PROJ_DIR$\..\UT\test_battery.c</file>
+      <file>$PROJ_DIR$\..\UT\test_low_power.c</file>
+      <file>$PROJ_DIR$\..\UT\test_pulse.c</file>
+      <file>$PROJ_DIR$\..\UT\test_timer.c</file>
+      <file>$PROJ_DIR$\..\UT\unit_test.c</file>
+      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Defaults.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\xencoding_limits.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ycheck.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ystdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\in430.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ysizet.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\yvals.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\string.h</file>
+      <file>$TOOLKIT_DIR$\lib\dlib\dl430xllfn.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Threads.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\assert.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\stdio.h</file>
+      <file>$PROJ_DIR$\Release\Obj\test_pulse.r43</file>
+      <file>$PROJ_DIR$\Release\Exe\Spump18_slaver.txt</file>
+      <file>$PROJ_DIR$\Release\Obj\CtlInterrupt.pbi</file>
+      <file>$PROJ_DIR$\..\Source\App\AppAlarm.h</file>
+      <file>$PROJ_DIR$\..\Source\App\AppAlarm.c</file>
+      <file>$PROJ_DIR$\msp430fr5989.xcl</file>
+      <file>$PROJ_DIR$\..\Source\App\AppEngineerMode.c</file>
+      <file>$PROJ_DIR$\..\Source\App\AppEngineerMode.h</file>
+      <file>$PROJ_DIR$\..\Source\App\AppEventHandle.c</file>
+      <file>$PROJ_DIR$\..\Source\App\AppEventHandle.h</file>
+      <file>$PROJ_DIR$\..\Source\App\AppMonitor.c</file>
+      <file>$PROJ_DIR$\..\Source\App\AppMonitor.h</file>
+      <file>$PROJ_DIR$\..\Source\App\AppSysState.c</file>
+      <file>$PROJ_DIR$\..\Source\App\AppSysState.h</file>
+      <file>$PROJ_DIR$\..\Source\App\Init.c</file>
+      <file>$PROJ_DIR$\..\Source\App\Init.h</file>
+      <file>$PROJ_DIR$\..\Source\Driver\DrvAdc.c</file>
+      <file>$PROJ_DIR$\..\Source\Driver\DrvAdc.h</file>
+      <file>$PROJ_DIR$\..\Source\Driver\DrvBeep.c</file>
+      <file>$PROJ_DIR$\..\Source\Driver\DrvBeep.h</file>
+      <file>$PROJ_DIR$\..\Source\Driver\DrvClk.c</file>
+      <file>$PROJ_DIR$\..\Source\Driver\DrvClk.h</file>
+      <file>$PROJ_DIR$\..\Source\Driver\DrvEncoder.c</file>
+      <file>$PROJ_DIR$\..\Source\Driver\DrvEncoder.h</file>
+      <file>$PROJ_DIR$\..\Source\Driver\DrvFram.c</file>
+      <file>$PROJ_DIR$\..\Source\Driver\DrvFram.h</file>
+      <file>$PROJ_DIR$\..\Source\Driver\DrvHall.c</file>
+      <file>$PROJ_DIR$\..\Source\Driver\DrvHall.h</file>
+      <file>$PROJ_DIR$\..\Source\Driver\DrvMotor.c</file>
+      <file>$PROJ_DIR$\..\Source\Driver\DrvMotor.h</file>
+      <file>$PROJ_DIR$\..\Source\Driver\DrvPort.c</file>
+      <file>$PROJ_DIR$\..\Source\Driver\DrvPort.h</file>
+      <file>$PROJ_DIR$\..\Source\Driver\DrvPower.c</file>
+      <file>$PROJ_DIR$\..\Source\Driver\DrvPower.h</file>
+      <file>$PROJ_DIR$\..\Source\Driver\DrvSpi.c</file>
+      <file>$PROJ_DIR$\..\Source\Driver\DrvSpi.h</file>
+      <file>$PROJ_DIR$\..\Source\Driver\DrvTimer.c</file>
+      <file>$PROJ_DIR$\..\Source\Driver\DrvTimer.h</file>
+      <file>$PROJ_DIR$\..\Source\Driver\DrvUart.c</file>
+      <file>$PROJ_DIR$\..\Source\Driver\DrvUart.h</file>
+      <file>$PROJ_DIR$\..\Source\Kernel\CtlAdc.c</file>
+      <file>$PROJ_DIR$\..\Source\Kernel\CtlAdc.h</file>
+      <file>$PROJ_DIR$\Release\Obj\DrvFram.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\CtlTime.r43</file>
+      <file>$PROJ_DIR$\Release\Obj\CtlMotor.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\version.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\AppEventHandle.r43</file>
+      <file>$TOOLKIT_DIR$\config\linker\multiplier32.xcl</file>
+      <file>$TOOLKIT_DIR$\lib\dlib\dl430xllfn.r43</file>
+      <file>$PROJ_DIR$\Release\Obj\Common.r43</file>
+      <file>$PROJ_DIR$\Release\Obj\DrvHall.r43</file>
+      <file>$PROJ_DIR$\Release\Obj\DrvPower.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\CtlComm.pbi</file>
+      <file>$PROJ_DIR$\Release\Exe\Spump18_slaver.ulp</file>
+      <file>$PROJ_DIR$\Release\Obj\CtlDelivery.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\DrvBeep.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\DrvBeep.r43</file>
+      <file>$PROJ_DIR$\Release\Obj\version.r43</file>
+      <file>$PROJ_DIR$\Release\Obj\DrvPower.r43</file>
+      <file>$PROJ_DIR$\Release\Obj\AppMonitor.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\DrvEncoder.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\CtlData.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\unit_test.r43</file>
+      <file>$PROJ_DIR$\Release\Obj\AppAlarm.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\DrvSpi.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\CtlDelivery.r43</file>
+      <file>$PROJ_DIR$\Release\Obj\Common.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\Init.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\CtlSpiComm.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\Init.r43</file>
+      <file>$PROJ_DIR$\Release\Obj\test_pulse.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\DrvPort.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\DrvEncoder.r43</file>
+      <file>$PROJ_DIR$\Release\Obj\DrvClk.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\CtlAdc.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\AppSysState.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\DrvMotor.r43</file>
+      <file>$PROJ_DIR$\Release\Obj\CtlPower.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\main.r43</file>
+      <file>$PROJ_DIR$\Release\Obj\test_battery.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\DrvMotor.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\CtlData.r43</file>
+      <file>$PROJ_DIR$\Release\Obj\AppEventHandle.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\AppAlarm.r43</file>
+      <file>$PROJ_DIR$\Release\Obj\CtlInterrupt.r43</file>
+      <file>$PROJ_DIR$\Release\Obj\test_timer.r43</file>
+      <file>$PROJ_DIR$\Release\Obj\DrvHall.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\test_low_power.r43</file>
+      <file>$PROJ_DIR$\Release\Obj\DrvUart.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\CtlAlarm.r43</file>
+      <file>$PROJ_DIR$\Release\Obj\CtlAlarm.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\CtlAdc.r43</file>
+      <file>$PROJ_DIR$\Release\Obj\AppMonitor.r43</file>
+      <file>$PROJ_DIR$\Release\Obj\CtlTime.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\CtlSpiComm.r43</file>
+      <file>$PROJ_DIR$\Release\Obj\DrvClk.r43</file>
+      <file>$PROJ_DIR$\Release\Obj\DrvAdc.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\AppEngineerMode.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\CtlMotor.r43</file>
+      <file>$PROJ_DIR$\Release\Obj\DrvSpi.r43</file>
+      <file>$PROJ_DIR$\Release\Obj\test_low_power.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\unit_test.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\CtlEvent.pbi</file>
+      <file>$PROJ_DIR$\Release\List\Spump18_slaver.map</file>
+      <file>$PROJ_DIR$\Release\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\DrvFram.r43</file>
+      <file>$PROJ_DIR$\Release\Obj\DrvTimer.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\AppSysState.r43</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\stddef.h</file>
+      <file>$PROJ_DIR$\Release\Obj\test_battery.r43</file>
+      <file>$PROJ_DIR$\Release\Obj\AppEngineerMode.r43</file>
+      <file>$PROJ_DIR$\Release\Obj\DrvPort.r43</file>
+      <file>$PROJ_DIR$\Release\Obj\CtlComm.r43</file>
+      <file>$PROJ_DIR$\Release\Obj\CtlPower.r43</file>
+      <file>$PROJ_DIR$\Release\Obj\DrvTimer.r43</file>
+      <file>$PROJ_DIR$\Release\Obj\test_timer.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\io430fr5989.h</file>
+      <file>$PROJ_DIR$\Release\Obj\CtlTimer.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\CtlTimer.r43</file>
+      <file>$PROJ_DIR$\Release\Obj\DrvUart.r43</file>
+      <file>$PROJ_DIR$\Release\Obj\DrvAdc.r43</file>
+      <file>$PROJ_DIR$\Release\Exe\Spump18_slaver.d43</file>
+      <file>$PROJ_DIR$\Release\Obj\CtlEvent.r43</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 169 151 49</file>
+        </tool>
+        <tool>
+          <name>ULP430</name>
+          <file> 101</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\Kernel\CtlAlarm.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 137</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 138</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 1 26 21 11 25 40 34 69 67</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 26 40 67 69 21 11 25 34 1</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\Kernel\CtlComm.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 160</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 100</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 3 23 26 47 38 42 35 44 36 37 45 41 39 46 17 25 40 34 83 63 81 79 73 77 5 7 71 89 65 87 43 55 21 11 69</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 89 26 25 47 42 55 38 73 34 41 87 39 37 5 40 79 17 43 21 23 46 35 45 44 36 83 77 7 81 71 11 3 63 65 69</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\Kernel\CtlData.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 129</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 109</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 5 26 73 25 40 34 7 77 71</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 7 25 40 26 5 73 34 77 71</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\Kernel\CtlDelivery.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 113</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 102</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 7 26 77 25 40 34 71 89 65 5 73 13</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 25 77 40 26 5 89 71 13 65 7 34 73</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\Kernel\CtlEvent.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 170</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 150</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 9 26 46 38 42 35 44 36 37 45 43 41</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 42 43 26 37 44 46 38 35 45 36 9 41</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\Kernel\CtlInterrupt.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 132</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 50</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 11 25 40 34 26</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 25 40 26 11 34</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\Kernel\CtlMotor.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 146</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 92</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 13 26 71 25 40 34 77 81 79 75 23 47 38 42 35 44 36 37 45 41 39 46 7 21 11 69 17 83 63 73 5 89 65</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 25 17 47 39 71 26 37 38 42 5 73 77 7 40 79 69 89 63 81 75 23 21 34 46 41 35 45 44 36 11 83 13 65</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\Kernel\CtlPower.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 161</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 125</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 15 25 40 34 26 81 79 9</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 26 40 9 25 81 34 15 79</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\Kernel\CtlSpiComm.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 142</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 116</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 17 25 40 34 26 83 63 81 79 73 77 5 7 71 89 65 75 85 3 23 47 38 42 35 44 36 37 45 41 39 46 13 21 11 69 59 51 9</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 13 25 89 7 36 75 83 40 26 46 41 71 77 81 59 63 65 23 38 17 5 73 85 3 21 51 34 79 35 45 44 42 69 47 39 37 11 9</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\Kernel\CtlTime.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 91</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 141</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 19 26 85 25 40 34</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 25 40 26 85 34 19</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\Kernel\CtlTimer.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 166</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 165</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 21 26 11 25 40 34 69 19 85 9 46 38 42 35 44 36 37 45</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 25 36 26 69 35 9 40 19 46 11 34 38 45 44 42 21 85 37</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\Common.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 97</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 114</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 23 26 47 38 42 35 44 36 37 45 41 39 46 164 34 43</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 41 26 43 36 164 46 38 42 23 47 35 45 44 39 37 34</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\main.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 126</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 152</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 25 40 34 63 26 9 19 85 21 11 69 17 83 81 79 73 77 5 7 71 89 65 75 87 3 23 47 38 42 35 44 36 37 45 41 39 46 59 57 13</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 25 65 5 3 40 26 77 42 21 11 9 75 57 73 89 81 63 19 17 87 59 13 34 85 69 83 7 79 23 47 39 37 38 71 46 41 35 45 44 36</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\version.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 105</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 93</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 28</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 28</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\UT\test_battery.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 157</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 127</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\UT\test_low_power.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 135</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 148</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\UT\test_pulse.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 48</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 118</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\UT\test_timer.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 133</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 163</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\UT\unit_test.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 110</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 149</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\App\AppAlarm.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 131</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 111</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 51 26 23 47 38 42 35 44 36 37 45 41 39 46 9 1 21 11 25 40 34 69 19 85</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 26 44 35 38 25 19 45 42 21 9 46 41 36 69 1 23 47 39 37 11 40 51 34 85</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\App\AppEngineerMode.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 158</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 145</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 65 25 40 34 26 89 47 38 42 35 44 36 37 45 41 39 17 83 63 81 79 73 77 5 7 71 55 23 46 43 21 11 69 19 85 59 51 9</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 81 26 89 73 25 19 55 40 41 71 43 51 65 38 37 23 47 17 21 59 34 42 39 5 79 11 85 35 45 44 36 83 77 7 63 46 69 9</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\App\AppEventHandle.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 94</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 130</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 57 26 9 7 77 25 40 34 71 59 21 11 69 13 19 85 47 38 42 35 44 36 37 45 41 39</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 25 21 71 40 26 37 7 19 41 9 59 13 47 77 11 85 38 57 34 69 42 39 35 45 44 36</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\App\AppMonitor.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 140</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 107</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 59 26 7 77 25 40 34 71 21 11 69 89 65 9 15 81 79 5 73 19 85 17 83 63 51 23 47 38 42 35 44 36 37 45 41 39 46</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 81 26 25 5 34 79 9 17 65 38 42 77 45 89 51 40 11 46 35 44 21 7 15 19 71 69 73 41 36 59 85 83 63 23 47 39 37</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\App\AppSysState.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 155</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 123</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 57 26 9 7 77 25 40 34 71 59 21 11 69 5 73</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 21 26 7 71 25 40 34 69 9 59 5 77 73 57 11</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\App\Init.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 117</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 115</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 43 38 42 35 44 36 37 45 41 63 26 61 57 1 5 73 25 40 34 7 77 71 17 83 81 79 89 65 15 11 9 21 69 85 67 75 87 55 23 47 39 46 3</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 44 26 77 34 5 15 3 35 1 83 67 45 42 40 61 7 9 69 87 38 36 25 39 63 57 17 11 21 85 79 81 71 75 55 41 37 73 89 65 47 23 43 46</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\Driver\DrvAdc.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 168</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 144</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 65 25 40 34 26 89</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 26 89 25 40 65 34</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\Driver\DrvBeep.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 104</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 103</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 67 25 40 34 26</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 25 40 26 67 34</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\Driver\DrvClk.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 143</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 121</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 69 25 40 34 26</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 26 40 25 69 34</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\Driver\DrvEncoder.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 120</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 108</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 71 25 40 34 26 77 13</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 25 13 40 26 77 71 34</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\Driver\DrvFram.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 153</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 90</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 73 25 40 34 26</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 25 40 26 73 34</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\Driver\DrvHall.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 98</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 134</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 75 25 40 34 26 77 7 71 13</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 26 7 40 77 13 25 75 34 71</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\Driver\DrvMotor.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 124</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 128</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 77 25 40 34 26 81 79 65 89 23 47 38 42 35 44 36 37 45 41 39 46</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 38 42 26 79 25 45 65 46 35 44 81 23 40 41 36 77 34 89 47 39 37</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\Driver\DrvPort.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 159</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 119</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 25 40 34 79 26</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 34 26 79 40 25</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\Driver\DrvPower.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 106</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 99</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 81 25 40 34 26 79 63 85 65 89 87 23 47 38 42 35 44 36 37 45 41 39 46 77 71 75</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 38 40 37 23 25 63 47 39 42 65 71 26 34 89 81 85 87 77 75 79 46 41 35 45 44 36</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\Driver\DrvSpi.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 147</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 112</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 83 25 40 34 26 63 81 79</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 63 25 26 81 40 83 34 79</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\Driver\DrvTimer.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 162</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 154</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 85 25 40 34 26 19 77 13 71</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 40 77 25 85 19 13 26 34 71</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\Driver\DrvUart.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 167</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 136</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 87 25 40 34 26 47 38 42 35 44 36 37 45 41 39 156</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 40 37 38 39 87 47 156 26 34 42 25 41 35 45 44 36</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\Kernel\CtlAdc.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 139</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 122</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 25 40 34 89 26 65</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 65 34 25 89 40 26</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Release\Exe\Spump18_slaver.d43</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 151 49</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 53 95 131 158 94 140 155 97 139 137 160 129 113 170 132 146 161 142 91 166 168 104 143 120 153 98 124 159 106 147 162 167 117 126 157 135 48 133 110 105 96</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>UT</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>XLINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+
