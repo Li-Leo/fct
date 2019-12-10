@@ -534,7 +534,7 @@ void FCTTestEncoder(T_CHAR* case_name)
         } 
     }
 }
-
+/*
 void FCTTestMotorCurrent(T_CHAR* case_name)
 {
     BeepOneTime();
@@ -612,6 +612,7 @@ void FCTTestMotorCurrent(T_CHAR* case_name)
 //        }
 //    }
 }
+*/
 
 void FCTTestADC(T_CHAR* case_name)
 {
@@ -677,7 +678,7 @@ void FCTTestADC(T_CHAR* case_name)
         printf("%s\n",g_display_string);
     }    
 
-    if(g_battery_voltage > 2500)
+    if(g_battery_voltage > 2400)
     {
         offset = 3000 - g_battery_voltage;
         g_battery_voltage_offset = offset;
@@ -966,14 +967,14 @@ static TS_FCT_CASE g_fct_case[E_FCT_TEST_CASE_MAX] =
     {FCTTestMotor, "7.Motor Test","Motor"},
     {FCTTestHall, "8.Hall Test","Hall"},
     {FCTTestEncoder, "9.Encoder Test","Encoder"},
-    {FCTTestMotorCurrent, "10.MotorCurrent","Motor Current"},
-    {FCTTestADC, "11.ADC Test","ADC"},
-    {FCTTestRTC, "12.RTC Test","RTC"},
-    {FCTTestSleepCurrent, "13.Sleep mA","SC"},
-    {FCTTestNormalCurrent, "14.Normal mA","NC"},
-    {FCTTestBacklightOnCurrent, "15.BL on mA","NC"},
-    {FCTTestMotorOnCurrent, "16.Motor on mA","WC"},
-    {FCTTestPrecision,"17.PrecisionTest",""},
+    //{FCTTestMotorCurrent, "10.MotorCurrent","Motor Current"},
+    {FCTTestADC, "10.ADC Test","ADC"},
+    {FCTTestRTC, "11.RTC Test","RTC"},
+    {FCTTestSleepCurrent, "12.Sleep mA","SC"},
+    {FCTTestNormalCurrent, "13.Normal mA","NC"},
+    {FCTTestBacklightOnCurrent, "14.BL on mA","NC"},
+    {FCTTestMotorOnCurrent, "15.Motor on mA","WC"},
+    {FCTTestPrecision,"16.PrecisionTest",""},
 }; 
 void FCTTestStart()
 {
