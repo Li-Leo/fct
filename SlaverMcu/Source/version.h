@@ -23,7 +23,7 @@
 
 #define MAJOR_VERSION   1
 #define MINOR_VERSION   0
-#define REVISION_VERSION   1
+#define REVISION_VERSION   2
 #define INTERNAL_VERSION 0
 #define BUILD_TIME  __DATE__", "__TIME__
 

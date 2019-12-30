@@ -2,7 +2,7 @@
 #                                                                              #
 #      IAR Universal Linker V6.1.3.56                                          #
 #                                                                              #
-#           Link time     =  17/Jun/2019  11:33:36                             #
+#           Link time     =  30/Dec/2019  13:52:04                             #
 #           Target CPU    =  MSP430                                            #
 #           List file     =  D:\FCT_release\SlaverMcu\IAR_project\Release\List #
 #                            \Spump18_slaver.map                               #
@@ -212,118 +212,122 @@ Module  Entry                                  Address
         _DATA16_HEAP_SIZE                       0000
         _STACK_SIZE                             0400
 AppAlarm ( D:\FCT_release\SlaverMcu\IAR_project\Release\Obj\AppAlarm.r43 )
-        AlarmPlay                               976A
-        AlarmStop                               A528
+        AlarmPlay                               97AC
+        AlarmStop                               A58E
 AppEngineerMode ( D:\FCT_release\SlaverMcu\IAR_project\Release\Obj\AppEngineerMode.r43 )
-        strchr                                  A60A
-        AppEngineerModeRepeatRun                A5E2
-        test_com                                9B14
-        AppEngineerModeOnReceiveByte            9202
-        AppEngineerModeInit                     A0FA
+        strchr                                  A6AC
+        AppEngineerModeRepeatRun                A660
+        test_com                                9B56
+        AppEngineerModeOnReceiveByte            9244
+        AppEngineerModeInit                     A110
         g_app_engineer_receive_str              4ACC
         g_app_engineer_receive_index            4400
         g_app_engineer_last_receive_str         4B08
         g_app_engineer_is_enable_cmd            4B44
         g_app_engineer_handlers_ptr             4404
         g_app_engineer_com_test_send            4408
-        AppEngineerModeHelp                     9808
-        AppEngineerModeExit                     A4BC
-        AppEngineerModeRepeatLastCmd            A1E0
-        AppEngineerModeTime                     A1C8
-        AppEngineerModeEnableOutput             9614
-        AppEngineerModeDisableOutput            95BC
-        AppEngineerModeOutputSensor             7E6A
-        AppEngineerModeTestWatchdog             A602
-        AppEngineerModeStopWatchdog             A484
-        AppEngineerModePowerupCause             A294
-        AppEngineerModeTestCom                  9C18
-        AppEngineerModeTestComStop              A2BE
-        AppEngineerModeComTest                  A02C
-        g_app_engineer_cmd_handlers             A62C
-        AppEngineerModeParseParams              96C2
-        AppEngineerModeParseCmd                 8970
+        AppEngineerModeHelp                     97FC
+        AppEngineerModeExit                     A582
+        AppEngineerModeRepeatLastCmd            A27C
+        AppEngineerModeTime                     A234
+        AppEngineerModeEnableOutput             95FE
+        AppEngineerModeDisableOutput            9656
+        AppEngineerModeOutputSensor             8004
+        AppEngineerModeTestWatchdog             A6A4
+        AppEngineerModeStopWatchdog             A4F0
+        AppEngineerModePowerupCause             A2D6
+        AppEngineerModeTestCom                  9CBA
+        AppEngineerModeTestComStop              A342
+        AppEngineerModeComTest                  A056
+        g_app_engineer_cmd_handlers             A6C2
+        AppEngineerModeParseParams              9758
+        AppEngineerModeParseCmd                 89B2
 AppEventHandle ( D:\FCT_release\SlaverMcu\IAR_project\Release\Obj\AppEventHandle.r43 )
         _A_PAOUT_L                              0202
         g_mcu_reset_flag                        440C
-        AppTimerHandleAfterMasterMcuReset       A61A
-        AppEventHandleInit                      A252
+        AppTimerHandleAfterMasterMcuReset       A6BE
+        AppEventHandleInit                      A302
         PAOUT                                   0202
         PAOUT_H                                 0203
         PAOUT_L                                 0202
-        AppEventHanldeResetMasterMcu            98A2
-        AppEventHanldeNull                      A61C
+        AppEventHanldeResetMasterMcu            98E4
+        AppEventHanldeNull                      A6B2
 AppMonitor ( D:\FCT_release\SlaverMcu\IAR_project\Release\Obj\AppMonitor.r43 )
         _A_PAIN_L                               0200
         _A_PEOUT_L                              0282
         g_mcu_reset_counter                     440E
         g_is_external_sys_resetting             4B45
-        pulse_signal_last                       4B46
-        SystemMonitorStart                      9DE6
-        ExcuteSleep                             A606
-        MonitorCheckPulseSignal                 9CA8
-        ExternSysMonitorStart                   94AA
-        ExternSysMonitorStop                    9E8A
+        send_pulse_signal_status                4B46
+        pulse_signal_last                       4B47
+        SystemMonitorStart                      9E52
+        ExcuteSleep                             A6A0
+        MonitorCheckPulseSignal                 9C5A
+        ExternSysMonitorStart                   94EC
+        ExternSysMonitorStop                    9EA4
+        ExternSysMonitorIsRuning                A412
+        MonitorSendPulseSignal                  9ECC
+        PulseSignalSendStart                    A180
         PAIN                                    0200
         PAIN_H                                  0201
         PAIN_L                                  0200
         PEOUT                                   0282
         PEOUT_H                                 0283
         PEOUT_L                                 0282
-        MonitorCheckSystemStatus                A61E
-        ReadPulseSignalLevel                    A586
-        ExternSysFail                           9984
+        MonitorCheckSystemStatus                A6B8
+        ReadPulseSignalLevel                    A5D6
+        ExternSysFail                           9A92
 AppSysState ( D:\FCT_release\SlaverMcu\IAR_project\Release\Obj\AppSysState.r43 )
-        AppSysStateInit                         9CD8
-        AppStateHanldeOnEnterStop               A30E
-        AppStateHanldeOnEnterPause              A3F2
-        AppStateHanldeOnEnterRun                A3B2
-        AppStateHanldeOnEnterSleep              A4C8
+        AppSysStateInit                         9D1A
+        AppStateHanldeOnEnterStop               A392
+        AppStateHanldeOnEnterPause              A488
+        AppStateHanldeOnEnterRun                A468
+        AppStateHanldeOnEnterSleep              A5B2
 Common ( D:\FCT_release\SlaverMcu\IAR_project\Release\Obj\Common.r43 )
-        g_is_module_enable_output               4B47
+        g_is_module_enable_output               4B48
         g_module_names                          2000
-        CommonInit                              A620
-        SetModuleOutput                         A568
-        SetModuleOutputByName                   9562
-        IsEnableOutput                          A590
+        CommonInit                              A6B0
+        SetModuleOutput                         A61C
+        SetModuleOutputByName                   95A4
+        IsEnableOutput                          A612
 CtlAdc ( D:\FCT_release\SlaverMcu\IAR_project\Release\Obj\CtlAdc.r43 )
-        AdcGetAverageValue                      92FE
+        AdcGetAverageValue                      9340
         g_motor_vol                             4410
         g_s_vol_cal                             4424
         g_batt_vol                              4438
         g_batt_perf                             444C
         CalcAverageValue                        7AE2
 CtlAlarm ( D:\FCT_release\SlaverMcu\IAR_project\Release\Obj\CtlAlarm.r43 )
-        SetPlayNone                             9DBC
-        SetPlayOnce                             93E4
-        SetPlayOnceNoVibration                  9D90
-        SetPlayTwice                            A04C
-        TimerHandleStopBeep                     A44C
-        TimerHandleStopVibrate                  A534
-        TimerHandleStartVibrate                 A422
+        SetPlayNone                             9E28
+        SetPlayOnce                             9426
+        SetPlayOnceNoVibration                  9DD2
+        SetPlayTwice                            A0D4
+        TimerHandleStopBeep                     A4FE
+        TimerHandleStopVibrate                  A576
+        TimerHandleStartVibrate                 A51A
 CtlComm ( D:\FCT_release\SlaverMcu\IAR_project\Release\Obj\CtlComm.r43 )
-        CommOnRecvFromInternalComTimeOut        A130
-        CommOnRecvOneByteFromInternalCom        886E
-        CommHandleNewReceiveData                97BA
-        CommSendBytes                           9E3A
-        CommInit                                A51C
-        g_comm_internal_packet                  4B4B
+        CommOnRecvFromInternalComTimeOut        A19A
+        CommOnRecvOneByteFromInternalCom        88B0
+        CommHandleNewReceiveData                984A
+        CommSendBytes                           9EF4
+        CommInit                                A5BE
+        g_comm_internal_packet                  4B4C
         g_comm_receive_pos_at_internal_packet   4460
 CtlData ( D:\FCT_release\SlaverMcu\IAR_project\Release\Obj\CtlData.r43 )
-        g_delivery_state                        4B55
+        g_delivery_state                        4B56
         g_sys_para_infu_info                    4462
         g_deliver_dose_value                    4762
         g_deliver_dose_actual                   4764
-        g_sys_para_thickness                    4B56
+        g_sys_para_thickness                    4B57
         g_sys_para_max_inf_dose                 4766
         g_sys_para_actual_day_total             4768
-        g_deliver_switch                        4B57
+        g_deliver_switch                        4B58
         g_dose_number                           476A
         g_min_alarm_dose                        476C
         g_min_alarm_battery                     476E
         g_motor_position                        4770
         g_motor_monitor_pos_point               4772
         g_motor_monitor_pos_counter             4776
-        g_occlusion_state                       4B58
+        g_occlusion_state                       4B59
         g_motor_cali_circle                     477A
         g_deli_cali_rate                        477C
         g_deli_power                            477E
@@ -333,56 +337,56 @@ CtlData ( D:\FCT_release\SlaverMcu\IAR_project\Release\Obj\CtlData.r43 )
         g_record_counter                        478C
         g_password_private                      4794
         g_password_common                       4796
-        g_mcu_abnormal_reset_state              4B59
+        g_mcu_abnormal_reset_state              4B5A
         SaveSysPara                             744A
 CtlDelivery ( D:\FCT_release\SlaverMcu\IAR_project\Release\Obj\CtlDelivery.r43 )
-        CtlDeliveryInit                         A492
-        CtlSetDeliveryState                     A5AA
+        CtlDeliveryInit                         A528
+        CtlSetDeliveryState                     A640
 CtlEvent ( D:\FCT_release\SlaverMcu\IAR_project\Release\Obj\CtlEvent.r43 )
-        CtlEventGet                             8CAE
-        CtlEventHandle                          9C48
-        CtlEventHandleAll                       9EFC
-        CtlEventPost                            8FD8
-        CtlEventBindHandle                      A4D4
+        CtlEventGet                             8CF0
+        CtlEventHandle                          9C8A
+        CtlEventHandleAll                       9F42
+        CtlEventPost                            901A
+        CtlEventBindHandle                      A56A
         g_event_queue                           4798
         g_event_queue_begin_index               48C4
         g_event_queue_end_index                 48C8
         g_event_handle_fun_arr                  48CC
 CtlInterrupt ( D:\FCT_release\SlaverMcu\IAR_project\Release\Obj\CtlInterrupt.r43 )
-        InterruptCtlInit                        A624
+        InterruptCtlInit                        A6BC
 CtlMotor ( D:\FCT_release\SlaverMcu\IAR_project\Release\Obj\CtlMotor.r43 )
         g_motor_running_dir                     2010
-        g_motor_is_running                      4B5A
-        g_motor_is_meet_hall                    4B5B
-        g_motor_is_reach_expect_encoder         4B5C
-        g_motor_stop_cause                      4B5D
-        g_motor_is_need_check_hall              4B5E
-        CtlMotorStart                           A54A
-        CtlMotorStartEx                         8A5A
-        CtlMotorStop                            8628
+        g_motor_is_running                      4B5B
+        g_motor_is_meet_hall                    4B5C
+        g_motor_is_reach_expect_encoder         4B5D
+        g_motor_stop_cause                      4B5E
+        g_motor_is_need_check_hall              4B5F
+        CtlMotorStart                           A5FE
+        CtlMotorStartEx                         8A9C
+        CtlMotorStop                            866A
 CtlPower ( D:\FCT_release\SlaverMcu\IAR_project\Release\Obj\CtlPower.r43 )
 CtlSpiComm ( D:\FCT_release\SlaverMcu\IAR_project\Release\Obj\CtlSpiComm.r43 )
         g_com_receive                           4944
-        SpiCommInit                             A622
-        crc16                                   98EE
-        SetSpiCommandToMaster                   9282
-        test_com_save_recv                      A334
-        AnalysisSendCommand                     7FCA
-        AnalysisSendQueryCommand                8122
-        AnalysisCommmandFromMaster              9856
+        SpiCommInit                             A6B6
+        crc16                                   9930
+        SetSpiCommandToMaster                   92C4
+        test_com_save_recv                      A3B8
+        AnalysisSendCommand                     7CF8
+        AnalysisSendQueryCommand                8164
+        AnalysisCommmandFromMaster              9898
 CtlTime ( D:\FCT_release\SlaverMcu\IAR_project\Release\Obj\CtlTime.r43 )
-        g_time_is_tick_handled                  4B5F
-        CtlTimeOnOneTick                        9B84
-        CtlTimeSincePowerOn                     A45A
-        CtlTimeIsTickHandled                    A59A
-        CtlTimeSetTickHandled                   A5DA
+        g_time_is_tick_handled                  4B60
+        CtlTimeOnOneTick                        9BF8
+        CtlTimeSincePowerOn                     A4E2
+        CtlTimeIsTickHandled                    A678
+        CtlTimeSetTickHandled                   A670
 CtlTimer ( D:\FCT_release\SlaverMcu\IAR_project\Release\Obj\CtlTimer.r43 )
-        CtlTimerBindHandle                      A27E
-        CtlTimerSet                             8F3E
-        CtlTimerSetRepeat                       9BE8
-        CtlTimerClear                           A210
-        CtlTimerIsExist                         A2AA
-        CtlTimerHandle                          875A
+        CtlTimerBindHandle                      A2C0
+        CtlTimerSet                             8F80
+        CtlTimerSetRepeat                       9CEA
+        CtlTimerClear                           A294
+        CtlTimerIsExist                         A37E
+        CtlTimerHandle                          879C
         g_timer_mgr                             4948
 DrvAdc ( D:\FCT_release\SlaverMcu\IAR_project\Release\Obj\DrvAdc.r43 )
         _A_ADC12CTL0_L                          0800
@@ -404,13 +408,13 @@ DrvAdc ( D:\FCT_release\SlaverMcu\IAR_project\Release\Obj\DrvAdc.r43 )
         _A_PESEL1_L                             028C
         _A_REFCTL0_L                            01B0
         g_adc_data                              4A58
-        g_adc_completed_flag                    4B60
-        AdcInit                                 9448
-        DrvAdcEnable                            A2FA
-        DrvAdcDisable                           A412
-        DrvAdcDeinit                            A36A
-        DrvBattVoltChkEn                        A5EA
-        DrvBattPerfChkEn                        A5F0
+        g_adc_completed_flag                    4B61
+        AdcInit                                 948A
+        DrvAdcEnable                            A32E
+        DrvAdcDisable                           A498
+        DrvAdcDeinit                            A3DC
+        DrvBattVoltChkEn                        A692
+        DrvBattPerfChkEn                        A680
         ADC12_ISR                               6434
         ADC12_ISR::??INTVEC 90                  FFEA
         ADC12CTL0                               0800
@@ -467,10 +471,10 @@ DrvAdc ( D:\FCT_release\SlaverMcu\IAR_project\Release\Obj\DrvAdc.r43 )
         REFCTL0                                 01B0
         REFCTL0_H                               01B1
         REFCTL0_L                               01B0
-        g_adc_sample_count                      4B61
+        g_adc_sample_count                      4B62
 DrvBeep ( D:\FCT_release\SlaverMcu\IAR_project\Release\Obj\DrvBeep.r43 )
-        DrvBuzzSetState                         A3C2
-        DrvVibMotorSetState                     A2E6
+        DrvBuzzSetState                         A4A8
+        DrvVibMotorSetState                     A36A
         PAOUT                                   0202
         PAOUT_H                                 0203
         PAOUT_L                                 0202
@@ -484,7 +488,7 @@ DrvClk ( D:\FCT_release\SlaverMcu\IAR_project\Release\Obj\DrvClk.r43 )
         _A_CSCTL3_L                             0166
         _A_CSCTL5_L                             016A
         _A_CSCTL6_L                             016C
-        ClockInit                               9E62
+        ClockInit                               9E7C
         CSCTL0                                  0160
         CSCTL0_H                                0161
         CSCTL0_L                                0160
@@ -512,9 +516,9 @@ DrvEncoder ( D:\FCT_release\SlaverMcu\IAR_project\Release\Obj\DrvEncoder.r43 )
         TA0IV                                   036E
         g_encoder_counter                       4AA8
         g_encoder_expect_counter                4AAC
-        DrvEncoderInitial                       A14A
-        DrvEncoderEnable                        A430
-        DrvEncoderDisable                       A4AE
+        DrvEncoderInitial                       A1E8
+        DrvEncoderEnable                        A536
+        DrvEncoderDisable                       A4B8
         Timer0_A1_ISR                           64A6
         Timer0_A1_ISR::??INTVEC 86              FFE6
         PADIR                                   0204
@@ -527,15 +531,15 @@ DrvEncoder ( D:\FCT_release\SlaverMcu\IAR_project\Release\Obj\DrvEncoder.r43 )
         PASEL1_H                                020D
         PASEL1_L                                020C
 DrvFram ( D:\FCT_release\SlaverMcu\IAR_project\Release\Obj\DrvFram.r43 )
-        FramReadData                            A17E
-        FramWriteData                           A164
+        FramReadData                            A1B4
+        FramWriteData                           A202
 DrvHall ( D:\FCT_release\SlaverMcu\IAR_project\Release\Obj\DrvHall.r43 )
         _A_PAIE_L                               021A
         _A_PAIFG_L                              021C
         P1IV                                    020E
-        DrvHallInit                             A43E
-        DrvHallEnable                           A57C
-        DrvHallDisable                          A540
+        DrvHallInit                             A4D4
+        DrvHallEnable                           A5EA
+        DrvHallDisable                          A5F4
         Port_1                                  64F4
         Port_1::??INTVEC 74                     FFDA
         PAIN                                    0200
@@ -570,22 +574,22 @@ DrvMotor ( D:\FCT_release\SlaverMcu\IAR_project\Release\Obj\DrvMotor.r43 )
         TA1CCR1                                 0394
         TA1IV                                   03AE
         TA1EX0                                  03A0
-        DrvMotorInitial                         A5BA
-        DrvMotorSetRun                          9ED8
-        DrvMotorSetStopDriver                   A5A2
-        DrvMotorSetSleep                        A5B2
+        DrvMotorInitial                         A658
+        DrvMotorSetRun                          9FAE
+        DrvMotorSetStopDriver                   A650
+        DrvMotorSetSleep                        A638
         pulse_counter                           4AB0
         begin                                   4AB2
         end                                     4AB4
         time                                    4AB6
-        flag_Hz_done                            4B62
+        flag_Hz_done                            4B63
         hz                                      4ABA
         g_hz_value                              4ABE
         g_carry_cnter                           4AC0
-        g_motor_current_done                    4B63
-        DrvMotorCurrentInit                     A088
-        DrvMotorCurrentEnable                   9E10
-        DrvMotorCurrentDisable                  A4A0
+        g_motor_current_done                    4B64
+        DrvMotorCurrentInit                     A0B6
+        DrvMotorCurrentEnable                   9DFE
+        DrvMotorCurrentDisable                  A4C6
         Timer1_A1_ISR                           652E
         Timer1_A1_ISR::??INTVEC 76              FFDC
         PCDIR                                   0244
@@ -609,7 +613,7 @@ DrvPort ( D:\FCT_release\SlaverMcu\IAR_project\Release\Obj\DrvPort.r43 )
         _A_PJDIR_L                              0324
         _A_PJSEL0_L                             032A
         _A_PJSEL1_L                             032C
-        PortInit                                8EA2
+        PortInit                                8EE4
         PAOUT                                   0202
         PAOUT_H                                 0203
         PAOUT_L                                 0202
@@ -683,13 +687,13 @@ DrvPower ( D:\FCT_release\SlaverMcu\IAR_project\Release\Obj\DrvPower.r43 )
         _A_PBIFG_L                              023C
         _A_UCA0IE_L                             05DA
         _A_UCA1IE_L                             05FA
-        g_enter_low_power_state                 4B64
-        DrvInitPowerControl                     A628
-        DrvMCULowPower                          A5CA
-        DrvPortLowPower                         8BF8
-        DrvPowerEnableHallAndMotorCurrent       A5FC
-        DrvPowerDisableHallAndMotorCurrent      A5F6
-        DrvLowPower                             9508
+        g_enter_low_power_state                 4B65
+        DrvInitPowerControl                     A6BA
+        DrvMCULowPower                          A668
+        DrvPortLowPower                         8C3A
+        DrvPowerEnableHallAndMotorCurrent       A68C
+        DrvPowerDisableHallAndMotorCurrent      A686
+        DrvLowPower                             954A
         PM5CTL0                                 0130
         PM5CTL0_H                               0131
         PM5CTL0_L                               0130
@@ -786,11 +790,11 @@ DrvSpi ( D:\FCT_release\SlaverMcu\IAR_project\Release\Obj\DrvSpi.r43 )
         _A_UCB0IE_L                             066A
         _A_UCB0IFG_L                            066C
         UCB0IV                                  066E
-        g_rx_data                               4B65
+        g_rx_data                               4B66
         g_feedback_data                         2011
-        g_feedback_hz                           4B6D
-        g_feedback_type                         4B75
-        g_receive_finished                      4B76
+        g_feedback_hz                           4B6E
+        g_feedback_type                         4B76
+        g_receive_finished                      4B77
         USCI_B0_ISR                             66A8
         USCI_B0_ISR::??INTVEC 92                FFEC
         PASEL0                                  020A
@@ -820,14 +824,14 @@ DrvSpi ( D:\FCT_release\SlaverMcu\IAR_project\Release\Obj\DrvSpi.r43 )
         UCB0IFG                                 066C
         UCB0IFG_H                               066D
         UCB0IFG_L                               066C
-        USCI_B0_ISR::get_head_flag              4B77
-        USCI_B0_ISR::head_flag                  4B78
-        USCI_B0_ISR::get_feekback_flag          4B79
-        USCI_B0_ISR::get_head_finished          4B7A
-        USCI_B0_ISR::i                          4B7B
-        USCI_B0_ISR::j                          4B7C
-        USCI_B0_ISR::head                       4B7D
-        USCI_B0_ISR::receive_num                4B7F
+        USCI_B0_ISR::get_head_flag              4B78
+        USCI_B0_ISR::head_flag                  4B79
+        USCI_B0_ISR::get_feekback_flag          4B7A
+        USCI_B0_ISR::get_head_finished          4B7B
+        USCI_B0_ISR::i                          4B7C
+        USCI_B0_ISR::j                          4B7D
+        USCI_B0_ISR::head                       4B7E
+        USCI_B0_ISR::receive_num                4B80
 DrvTimer ( D:\FCT_release\SlaverMcu\IAR_project\Release\Obj\DrvTimer.r43 )
         TA0CCTL0                                0342
         TA0CCR0                                 0352
@@ -844,9 +848,9 @@ DrvTimer ( D:\FCT_release\SlaverMcu\IAR_project\Release\Obj\DrvTimer.r43 )
         TB0CCTL0                                03C2
         TB0CCR0                                 03D2
         g_time_ms_elapse                        4AC2
-        DrvTimerInitial                         A1B0
-        DrvTimerEnable                          9180
-        DrvTimerDisable                         9374
+        DrvTimerInitial                         A24C
+        DrvTimerEnable                          91C2
+        DrvTimerDisable                         93B6
         TimerA0Isr                              687E
         TimerA1Isr                              6880
         TimerA2Isr                              6882
@@ -872,20 +876,20 @@ DrvUart ( D:\FCT_release\SlaverMcu\IAR_project\Release\Obj\DrvUart.r43 )
         _A_UCA1TXBUF_L                          05EE
         _A_UCA1IFG_L                            05FC
         UCA1IV                                  05FE
-        DrvUart0Init                            9D62
-        DrvUart1Init                            9D34
-        Uart0SendByte                           A476
-        Uart0SendData                           9FCC
-        Uart1SendByte                           A468
-        Uart1SendData                           A00C
-        UartOnReceiveNewByte                    8D5A
-        UartReceivedBufferSize                  99C8
-        UartReceiveByte                         906E
-        UartGetNewDataFlag                      A268
-        UartClearNewDataFlag                    A23C
+        DrvUart0Init                            9D48
+        DrvUart1Init                            9D76
+        Uart0SendByte                           A50C
+        Uart0SendData                           A016
+        Uart1SendByte                           A544
+        Uart1SendData                           A036
+        UartOnReceiveNewByte                    8D9C
+        UartReceivedBufferSize                  99C6
+        UartReceiveByte                         90B0
+        UartGetNewDataFlag                      A2EC
+        UartClearNewDataFlag                    A2AA
         USCI_A0_ISR                             68AC
         USCI_A1_ISR                             68D2
-        __write                                 9A94
+        __write                                 9AD6
         USCI_A1_ISR::??INTVEC 84                FFE4
         USCI_A0_ISR::??INTVEC 94                FFEE
         PASEL0                                  020A
@@ -942,13 +946,13 @@ DrvUart ( D:\FCT_release\SlaverMcu\IAR_project\Release\Obj\DrvUart.r43 )
         UCA1IFG                                 05FC
         UCA1IFG_H                               05FD
         UCA1IFG_L                               05FC
-        g_uart_rx_buff                          4B80
+        g_uart_rx_buff                          4B81
 Init ( D:\FCT_release\SlaverMcu\IAR_project\Release\Obj\Init.r43 )
-        InitDriver                              9BB6
-        InitKernel                              A402
-        InitApp                                 A4F8
-        SysInit                                 A4EC
-        Initial                                 A5D2
+        InitDriver                              9BC6
+        InitKernel                              A448
+        InitApp                                 A552
+        SysInit                                 A5A6
+        Initial                                 A630
         PBOUT                                   0222
         PBOUT_H                                 0223
         PBOUT_L                                 0222
@@ -957,12 +961,12 @@ main ( D:\FCT_release\SlaverMcu\IAR_project\Release\Obj\main.r43 )
         _A_SYSRSTIV_L                           019E
         _A_WDTCTL_L                             015C
         g_power_up_cause                        4AC6
-        g_pulse_signal_now                      4C06
-        g_pulse_signal_last                     4C07
+        g_pulse_signal_now                      4C07
+        g_pulse_signal_last                     4C08
         g_pulse_test_receive_counter            4AC8
-        ReadPulseSignalLevel                    A3E2
-        test_pulse_save_recv                    A37C
-        main                                    84EC
+        ReadPulseSignalLevel                    A458
+        test_pulse_save_recv                    A3A6
+        main                                    852E
         SYSNMI_ISR                              68FA
         SYSNMI_ISR::??INTVEC 108                FFFC
         PM5CTL0                                 0130
@@ -994,11 +998,11 @@ unit_test ( D:\FCT_release\SlaverMcu\IAR_project\Release\Obj\unit_test.r43 )
 version ( D:\FCT_release\SlaverMcu\IAR_project\Release\Obj\version.r43 )
 ?abort ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
 ?__dbg_break ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
-        __DebugBreak                            A626
+        __DebugBreak                            A6B4
 ?__exit ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
-        __exit                                  A226
+        __exit                                  A318
 ?_exit ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
-        _exit                                   A612
+        _exit                                   A698
 ?cppinit ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
 ?cstart ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
         __program_start                         6400
@@ -1012,79 +1016,79 @@ lowinit ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430
 ?reset_vector ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
         ?reset_vector                           FFFE
 ?div64i ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
-        _Div64u                                 8B40
-        _Mod64u                                 90F8
+        _Div64u                                 8B82
+        _Mod64u                                 913A
 ?div ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
-        div                                     A116
+        div                                     A1CE
 ?exit ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
-        exit                                    A60E
+        exit                                    A69C
 ?Mul32fHw ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
-        ?Mul32fHw                               83AE
+        ?Mul32fHw                               83F0
 ?Cast32f32i ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
-        _Cast32sto32f                           8E04
-        _Cast32uto32f                           8E1A
+        _Cast32sto32f                           8E46
+        _Cast32uto32f                           8E5C
 _Cast32fto32u ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
-        _Cast32fto32u                           A504
+        _Cast32fto32u                           A59A
 ?FLT_Extract ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
-        ?FLT_Extract                            9716
+        ?FLT_Extract                            9704
 ?FLT_LT ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
-        ?FLT_LT                                 966C
+        ?FLT_LT                                 96AE
 _CmpLt32f ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
-        _CmpLt32f                               A572
+        _CmpLt32f                               A608
 _Div32f ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
-        _Div32f                                 826E
+        _Div32f                                 82B0
 _Add32f ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
-        _Add32f                                 7CFC
-        _Sub32f                                 7CF8
+        _Add32f                                 7E96
+        _Sub32f                                 7E92
 ?malloc ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
 ?DivMod816u ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
-        ?DivMod8u                               A0A6
-        ?DivMod16u                              A0AA
+        ?DivMod8u                               A12C
+        ?DivMod16u                              A130
 ?DivMod816s ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
-        ?DivMod8s                               9B4C
-        ?DivMod16s                              9B50
+        ?DivMod8s                               9B8E
+        ?DivMod16s                              9B92
 ?DivMod32u ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
-        ?DivMod32u                              9A0C
+        ?DivMod32u                              9A4E
 ?DivMod32s ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
-        ?DivMod32s                              9A50
+        ?DivMod32s                              9A0A
 ?ShiftLeft32 ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
 ?memchr ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
-        __iar_Memchr                            9F68
+        __iar_Memchr                            9FD2
 ?memcmp ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
-        memcmp                                  9C78
+        memcmp                                  9C2A
 ?memcpy ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
-        memcpy                                  A06A
+        memcpy                                  A0F2
 ?memmove ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
 ?ClearMemoryWords ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
 ?memset ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
 ?memzero ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
-        __data20_memzero                        A1F8
-        __data20_memcpy                         A616
+        __data20_memzero                        A264
+        __data20_memcpy                         A6A8
 ?MpuInit ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
-        __iar_430_mpu_init                      9FEC
-        ?mpu2_init                              9FEC
+        __iar_430_mpu_init                      A076
+        ?mpu2_init                              A076
 ?Mul32Hw32 ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
-        ?Mul32Hw32                              9F44
+        ?Mul32Hw32                              9F8A
 ?printf ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
-        printf                                  A0DE
+        printf                                  A148
 ?putchar ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
-        putchar                                 9D06
+        putchar                                 9DA4
 ?puts ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
-        puts                                    9AD6
+        puts                                    9B18
 ?setjmp ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
 ?longjmp ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
 ?sprintf ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
 ?strchr ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
-        __iar_Strchr                            A3D2
+        __iar_Strchr                            A478
 ?strcmp ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
-        strcmp                                  9F8A
+        strcmp                                  9FF4
 ?strcpy ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
-        strcpy                                  A358
+        strcpy                                  A424
 ?strlen ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
-        strlen                                  9FAC
+        strlen                                  A096
 ?xcloseall ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
 ?xdunscal ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
-        __iar_Dunscale                          993A
+        __iar_Dunscale                          997C
 ?xgetmemchunk ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
 ?xprintflarge_nomb ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
         _PrintfLargeNoMb                        6EBE
@@ -1094,10 +1098,10 @@ _Add32f ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430
         pad                                     6DFC
         LoadInt                                 6E2C
         _GenldLargeNoMb                         7840
-        _PutcharLargeNoMb                       9F20
-        _PutcharsLargeNoMb                      9EB2
+        _PutcharLargeNoMb                       9F66
+        _PutcharsLargeNoMb                      9F1C
 ?xprout ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
-        _Prout                                  A198
+        _Prout                                  A21C
 ?xsprout ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
 ?xxmemxfree ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
 ?xxmemxmalloc ( C:\Program Files\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xllfn.r43 )
@@ -1149,7 +1153,7 @@ AppEngineerMode      1 344    133         2 630
   + shared               4
 AppEventHandle         102      2
   + shared                             2
-AppMonitor             308      4            88
+AppMonitor             392      5            88
   + shared                             4
 AppSysState            110
 Common                 112     20            50
@@ -1161,7 +1165,7 @@ CtlDelivery             22
 CtlEvent               418    428
 CtlInterrupt             2
 CtlMotor               546      6           325
-CtlSpiComm             972      4           104
+CtlSpiComm           1 038      4           104
 CtlTime                 80      1
 CtlTimer               542    272
 DrvAdc                 278     82     28
@@ -1199,7 +1203,7 @@ main                   398      8      6     47
 N/A (command line)          1 024
 N/A (alignment)
 ----------          ------  -----    ---  -----
-Total:              16 942  3 105    198  3 372
+Total:              17 092  3 106    198  3 372
   + common             110
 
 
@@ -1262,18 +1266,18 @@ DATA16_AN                              0130 - 0131               2   rel    0
 CSTACK                                 1C00 - 1FFF             400   rel    1
 CODE_I                                    2000                       rel    1
 DATA20_I                               2000 - 2018              19   rel    1
-DATA20_Z                               4400 - 4C07             808   rel    1
-DATA20_HEAP                               4C08                       rel    1
-DATA20_N                                  4C08                       rel    1
+DATA20_Z                               4400 - 4C08             809   rel    1
+DATA20_HEAP                               4C0A                       rel    1
+DATA20_N                                  4C0A                       rel    1
 MPU_B1                                    5000                       rel   10
 MPU_B2                                    6400                       rel   10
 CSTART                                 6400 - 6433              34   rel    1
 ISR_CODE                               6434 - 6929             4F6   rel    1
-<CODE> 1                               692A - A629            3D00   rel    1
-CODE_PAD                               A62A - A62B               2   rel    1
-DATA20_C                               A62C - B33E             D13   rel    1
-DATA20_ID                              B340 - B358              19   rel    1
-CODE_ID                                   B35A                       rel    1
+<CODE> 1                               692A - A6BF            3D96   rel    1
+CODE_PAD                               A6C0 - A6C1               2   rel    1
+DATA20_C                               A6C2 - B3D4             D13   rel    1
+DATA20_ID                              B3D6 - B3EE              19   rel    1
+CODE_ID                                   B3F0                       rel    1
 INTVEC                                 FF90 - FFFD              6E   com    1
 RESET                                  FFFE - FFFF               2   rel    1
 
@@ -1283,8 +1287,8 @@ RESET                                  FFFE - FFFF               2   rel    1
                 *                                      *
                 ****************************************
 
- 17 052 bytes of CODE  memory
-  3 105 bytes of DATA  memory (+ 198 absolute )
+ 17 202 bytes of CODE  memory
+  3 106 bytes of DATA  memory (+ 198 absolute )
   3 372 bytes of CONST memory
 
 Errors: none

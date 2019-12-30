@@ -153,6 +153,7 @@ void AnalysisSendCommand(TS_SPI_COMMAND command)
     g_encoder_expect_counter=0;
     SetSpiCommandToMaster(HEAD_FC,COMM_MS,0,0);
     break;
+  case COMM_SS:
     DrvLowPower();
     DelayMs(2);
     SetSpiCommandToMaster(HEAD_FC,COMM_SS,0,0);
